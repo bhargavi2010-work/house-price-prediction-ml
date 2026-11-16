@@ -1,0 +1,546 @@
+price,area,bedrooms,bathrooms,stories,mainroad,guestroom,basement,hotwaterheating,airconditioning,parking,prefarea,furnishingstatus,location,drawing_room,kitchen_count,elevator,subway_access,construction_year,property_age
+13300000,7420,4,2,3,yes,no,no,no,yes,2,yes,furnished,Ahmedabad – Maninagar,3,2,available,near subway,2025,1
+12250000,8960,4,4,4,yes,no,no,no,yes,3,no,furnished,Chennai – OMR,2,2,available,far from subway,2017,9
+12250000,9960,3,2,2,yes,no,yes,no,no,2,yes,semi-furnished,Chennai – Velachery,3,2,available,near subway,2003,23
+12215000,7500,4,2,2,yes,no,yes,no,yes,3,yes,furnished,Anand – Lambhvel,3,2,available,near subway,2011,15
+11410000,7420,4,1,2,yes,yes,yes,no,yes,2,no,furnished,Gandhinagar – Sector 21,2,2,available,near subway,2005,21
+10850000,7500,3,3,1,yes,no,yes,no,yes,2,yes,semi-furnished,Delhi – Lajpat Nagar,2,2,available,near subway,2010,16
+10150000,8580,4,3,4,yes,no,no,no,yes,2,yes,semi-furnished,Gandhinagar – Sector 21,2,2,available,near subway,2008,18
+10150000,16200,5,3,2,yes,no,no,no,no,0,no,unfurnished,Jaipur – Malviya Nagar,3,2,available,far from subway,2002,24
+9870000,8100,4,1,2,yes,yes,yes,no,yes,2,yes,furnished,Udaipur – Bhuwana,2,2,available,near subway,2022,4
+9800000,5750,3,2,4,yes,yes,no,no,yes,1,yes,unfurnished,Lucknow – Indira Nagar,2,2,available,near subway,2007,19
+9800000,13200,3,1,2,yes,no,yes,no,yes,2,yes,furnished,Delhi – Rohini,3,2,available,near subway,2015,11
+9681000,6000,4,3,2,yes,yes,yes,yes,no,2,no,semi-furnished,Bangalore – Electronic City,2,1,available,far from subway,2002,24
+9310000,6550,4,2,2,yes,no,no,no,yes,1,yes,semi-furnished,Ahmedabad – Bopal,2,1,available,near subway,2001,25
+9240000,3500,4,2,2,yes,no,no,yes,no,2,no,furnished,Jaipur – Malviya Nagar,2,1,available,far from subway,2010,16
+9240000,7800,3,2,2,yes,no,no,no,no,0,yes,semi-furnished,Delhi – Saket,2,1,not available,near subway,2007,19
+9100000,6000,4,1,2,yes,no,yes,no,no,2,no,semi-furnished,Ahmedabad – Bopal,2,2,available,far from subway,1996,30
+9100000,6600,4,2,2,yes,yes,yes,no,yes,1,yes,unfurnished,Lucknow – Indira Nagar,2,2,not available,near subway,2002,24
+8960000,8500,3,2,4,yes,no,no,no,yes,2,no,furnished,Anand – Lambhvel,2,2,available,near subway,2010,16
+8890000,4600,3,2,2,yes,yes,no,no,yes,2,no,furnished,Ahmedabad – Chandkheda,2,1,available,far from subway,2008,18
+8855000,6420,3,2,2,yes,no,no,no,yes,1,yes,semi-furnished,Kolkata – Howrah,2,2,available,near subway,2001,25
+8750000,4320,3,1,2,yes,no,yes,yes,no,2,no,semi-furnished,Chennai – Adyar,2,2,available,far from subway,2003,23
+8680000,7155,3,2,1,yes,yes,yes,no,yes,2,no,unfurnished,Mumbai – Thane,2,1,not available,near subway,2001,25
+8645000,8050,3,1,1,yes,yes,yes,no,yes,1,no,furnished,Surat – City Light,2,1,not available,far from subway,2009,17
+8645000,4560,3,2,2,yes,yes,yes,no,yes,1,no,furnished,Kolkata – Salt Lake,2,2,not available,near subway,2012,14
+8575000,8800,3,2,2,yes,no,no,no,yes,2,no,furnished,Pune – Pimpri,2,2,available,far from subway,2014,12
+8540000,6540,4,2,2,yes,yes,yes,no,yes,2,yes,furnished,Surat – Vesu,2,1,available,near subway,2007,19
+8463000,6000,3,2,4,yes,yes,yes,no,yes,0,yes,semi-furnished,Chennai – Adyar,2,2,available,near subway,2003,23
+8400000,8875,3,1,1,yes,no,no,no,no,1,no,semi-furnished,Indore – Rau,2,1,not available,far from subway,2007,19
+8400000,7950,5,2,2,yes,no,yes,yes,no,2,no,unfurnished,Indore – Scheme 140,2,1,available,near subway,2005,21
+8400000,5500,4,2,2,yes,no,yes,no,yes,1,yes,semi-furnished,Greater Noida – Alpha 1,2,2,not available,near subway,2003,23
+8400000,7475,3,2,4,yes,no,no,no,yes,2,no,unfurnished,Ahmedabad – Satellite,3,2,available,far from subway,2005,21
+8400000,7000,3,1,4,yes,no,no,no,yes,2,no,semi-furnished,Mumbai – Thane,2,2,available,near subway,2010,16
+8295000,4880,4,2,2,yes,no,no,no,yes,1,yes,furnished,Jaipur – Tonk Road,2,2,not available,near subway,2015,11
+8190000,5960,3,3,2,yes,yes,yes,no,no,1,no,unfurnished,Bangalore – HSR Layout,2,1,not available,near subway,2010,16
+8120000,6840,5,1,2,yes,yes,yes,no,yes,1,no,furnished,Indore – Rau,2,2,not available,far from subway,2003,23
+8080940,7000,3,2,4,yes,no,no,no,yes,2,no,furnished,Noida – Sector 75,2,1,available,far from subway,2008,18
+8043000,7482,3,2,3,yes,no,no,yes,no,1,yes,furnished,Bangalore – Marathahalli,2,1,available,near subway,2008,18
+7980000,9000,4,2,4,yes,no,no,no,yes,2,no,furnished,Lucknow – Gomti Nagar,2,2,available,far from subway,2007,19
+7962500,6000,3,1,4,yes,yes,no,no,yes,2,no,unfurnished,Ahmedabad – Maninagar,1,2,available,near subway,1997,29
+7910000,6000,4,2,4,yes,no,no,no,yes,1,no,semi-furnished,Gandhinagar – Sector 7,2,2,available,far from subway,1996,30
+7875000,6550,3,1,2,yes,no,yes,no,yes,0,yes,furnished,Kolkata – Salt Lake,2,2,not available,near subway,2008,18
+7840000,6360,3,2,4,yes,no,no,no,yes,0,yes,furnished,Bangalore – Marathahalli,2,2,available,near subway,2003,23
+7700000,6480,3,2,4,yes,no,no,no,yes,2,no,unfurnished,Bangalore – Electronic City,2,2,available,near subway,2000,26
+7700000,6000,4,2,4,yes,no,no,no,no,2,no,semi-furnished,Pune – Wakad,2,2,available,far from subway,1999,27
+7560000,6000,4,2,4,yes,no,no,no,yes,1,no,furnished,Bhopal – Kolar Road,2,2,available,far from subway,2001,25
+7560000,6000,3,2,3,yes,no,no,no,yes,0,no,semi-furnished,Greater Noida – Pari Chowk,2,1,available,far from subway,2004,22
+7525000,6000,3,2,4,yes,no,no,no,yes,1,no,furnished,Mumbai – Navi Mumbai,2,2,available,far from subway,2007,19
+7490000,6600,3,1,4,yes,no,no,no,yes,3,yes,furnished,Mumbai – Navi Mumbai,2,2,available,near subway,2010,16
+7455000,4300,3,2,2,yes,no,yes,no,no,1,no,unfurnished,Chennai – Adyar,2,1,not available,near subway,2011,15
+7420000,7440,3,2,1,yes,yes,yes,no,yes,0,yes,semi-furnished,Chandigarh – Zirakpur,2,1,not available,near subway,2004,22
+7420000,7440,3,2,4,yes,no,no,no,no,1,yes,unfurnished,Bangalore – Marathahalli,2,2,available,near subway,2002,24
+7420000,6325,3,1,4,yes,no,no,no,yes,1,no,unfurnished,Mumbai – Borivali,2,2,available,far from subway,1994,32
+7350000,6000,4,2,4,yes,yes,no,no,yes,1,no,furnished,Pune – Kothrud,1,2,available,far from subway,2000,26
+7350000,5150,3,2,4,yes,no,no,no,yes,2,no,semi-furnished,Udaipur – Bhuwana,2,2,available,far from subway,2011,15
+7350000,6000,3,2,2,yes,yes,no,no,yes,1,no,semi-furnished,Ahmedabad – Gota,2,1,not available,near subway,1998,28
+7350000,6000,3,1,2,yes,no,no,no,yes,1,no,unfurnished,Surat – Adajan,1,2,available,far from subway,1994,32
+7343000,11440,4,1,2,yes,no,yes,no,no,1,yes,semi-furnished,Noida – Sector 75,2,1,available,near subway,2003,23
+7245000,9000,4,2,4,yes,yes,no,no,yes,1,yes,furnished,Chennai – Porur,2,2,available,near subway,2006,20
+7210000,7680,4,2,4,yes,yes,no,no,yes,1,no,semi-furnished,Hyderabad – Kondapur,2,2,available,far from subway,1998,28
+7210000,6000,3,2,4,yes,yes,no,no,yes,1,no,furnished,Gandhinagar – Sector 21,2,2,available,far from subway,2004,22
+7140000,6000,3,2,2,yes,yes,no,no,no,1,no,semi-furnished,Anand – Lambhvel,1,2,available,far from subway,2009,17
+7070000,8880,2,1,1,yes,no,no,no,yes,1,no,semi-furnished,Ahmedabad – Bopal,2,1,not available,far from subway,1998,28
+7070000,6240,4,2,2,yes,no,no,no,yes,1,no,furnished,Lucknow – Indira Nagar,2,1,available,near subway,1998,28
+7035000,6360,4,2,3,yes,no,no,no,yes,2,yes,furnished,Kota – Talwandi,2,1,available,near subway,2011,15
+7000000,11175,3,1,1,yes,no,yes,no,yes,1,yes,furnished,Surat – Vesu,2,1,not available,near subway,2008,18
+6930000,8880,3,2,2,yes,no,yes,no,yes,1,no,furnished,Lucknow – Gomti Nagar,2,1,not available,far from subway,2002,24
+6930000,13200,2,1,1,yes,no,yes,yes,no,1,no,furnished,Bangalore – Electronic City,2,1,not available,far from subway,1997,29
+6895000,7700,3,2,1,yes,no,no,no,no,2,no,unfurnished,Ahmedabad – Gota,2,1,available,far from subway,1994,32
+6860000,6000,3,1,1,yes,no,no,no,yes,1,no,furnished,Gandhinagar – Raysan,2,1,not available,far from subway,2005,21
+6790000,12090,4,2,2,yes,no,no,no,no,2,yes,furnished,Vadodara – Gotri,2,1,not available,near subway,2011,15
+6790000,4000,3,2,2,yes,no,yes,no,yes,0,yes,semi-furnished,Jodhpur – Pal Road,1,1,not available,near subway,1996,30
+6755000,6000,4,2,4,yes,no,no,no,yes,0,no,unfurnished,Surat – Pal,1,2,available,far from subway,1998,28
+6720000,5020,3,1,4,yes,no,no,no,yes,0,yes,unfurnished,Bangalore – Whitefield,1,2,available,near subway,2002,24
+6685000,6600,2,2,4,yes,no,yes,no,no,0,yes,furnished,Pune – Baner,2,2,available,near subway,1992,34
+6650000,4040,3,1,2,yes,no,yes,yes,no,1,no,furnished,Mumbai – Powai,2,2,not available,far from subway,2010,16
+6650000,4260,4,2,2,yes,no,no,yes,no,0,no,semi-furnished,Jodhpur – Sardarpura,2,1,not available,far from subway,1995,31
+6650000,6420,3,2,3,yes,no,no,no,yes,0,yes,furnished,Chennai – Porur,1,2,available,far from subway,2007,19
+6650000,6500,3,2,3,yes,no,no,no,yes,0,yes,furnished,Bhopal – Kolar Road,2,2,available,near subway,2006,20
+6650000,5700,3,1,1,yes,yes,yes,no,yes,2,yes,furnished,Delhi – Lajpat Nagar,2,1,not available,near subway,2011,15
+6650000,6000,3,2,3,yes,yes,no,no,yes,0,no,furnished,Noida – Sector 75,1,2,available,far from subway,2008,18
+6629000,6000,3,1,2,yes,no,no,yes,no,1,yes,semi-furnished,Hyderabad – Gachibowli,2,1,not available,near subway,1990,36
+6615000,4000,3,2,2,yes,no,yes,no,yes,1,no,semi-furnished,Jaipur – Jagatpura,1,1,not available,far from subway,1997,29
+6615000,10500,3,2,1,yes,no,yes,no,yes,1,yes,furnished,Hyderabad – Hitech City,2,2,not available,near subway,2006,20
+6580000,6000,3,2,4,yes,no,no,no,yes,0,no,semi-furnished,Surat – Adajan,1,2,available,near subway,2000,26
+6510000,3760,3,1,2,yes,no,no,yes,no,2,no,semi-furnished,Chennai – Adyar,1,1,not available,far from subway,2004,22
+6510000,8250,3,2,3,yes,no,no,no,yes,0,no,furnished,Bangalore – Hebbal,2,2,not available,near subway,2009,17
+6510000,6670,3,1,3,yes,no,yes,no,no,0,yes,unfurnished,Bangalore – HSR Layout,1,2,available,near subway,2001,25
+6475000,3960,3,1,1,yes,no,yes,no,no,2,no,semi-furnished,Surat – Vesu,1,1,not available,far from subway,2000,26
+6475000,7410,3,1,1,yes,yes,yes,no,yes,2,yes,unfurnished,Pune – Hadapsar,2,1,not available,near subway,1990,36
+6440000,8580,5,3,2,yes,no,no,no,no,2,no,furnished,Mumbai – Andheri,2,1,available,near subway,2002,24
+6440000,5000,3,1,2,yes,no,no,no,yes,0,no,semi-furnished,Jaipur – Vaishali Nagar,2,1,not available,far from subway,2003,23
+6419000,6750,2,1,1,yes,yes,yes,no,no,2,yes,furnished,Bangalore – Marathahalli,1,1,not available,near subway,1999,27
+6405000,4800,3,2,4,yes,yes,no,no,yes,0,no,furnished,Anand – Vallabh Vidyanagar,1,1,available,far from subway,2008,18
+6300000,7200,3,2,1,yes,no,yes,no,yes,3,no,semi-furnished,Ahmedabad – Satellite,2,1,not available,far from subway,2005,21
+6300000,6000,4,2,4,yes,no,no,no,no,1,no,semi-furnished,Anand – Karamsad,1,2,available,far from subway,2001,25
+6300000,4100,3,2,3,yes,no,no,no,yes,2,no,semi-furnished,Vadodara – Gotri,1,1,not available,far from subway,1990,36
+6300000,9000,3,1,1,yes,no,yes,no,no,1,yes,furnished,Surat – Vesu,1,1,not available,near subway,1998,28
+6300000,6400,3,1,1,yes,yes,yes,no,yes,1,yes,semi-furnished,Pune – Hinjewadi,1,2,not available,near subway,2011,15
+6293000,6600,3,2,3,yes,no,no,no,yes,0,yes,unfurnished,Chennai – Anna Nagar,2,2,available,near subway,1994,32
+6265000,6000,4,1,3,yes,yes,yes,no,no,0,yes,unfurnished,Jaipur – Tonk Road,1,1,available,near subway,1990,36
+6230000,6600,3,2,1,yes,no,yes,no,yes,0,yes,unfurnished,Greater Noida – Pari Chowk,1,1,not available,near subway,2004,22
+6230000,5500,3,1,3,yes,no,no,no,no,1,yes,unfurnished,Indore – Bengali Square,2,2,available,near subway,1997,29
+6195000,5500,3,2,4,yes,yes,no,no,yes,1,no,semi-furnished,Jaipur – Malviya Nagar,1,1,available,far from subway,2006,20
+6195000,6350,3,2,3,yes,yes,no,no,yes,0,no,furnished,Chandigarh – Panchkula,2,2,available,far from subway,2005,21
+6195000,5500,3,2,1,yes,yes,yes,no,no,2,yes,furnished,Ahmedabad – Chandkheda,1,1,available,near subway,2006,20
+6160000,4500,3,1,4,yes,no,no,no,yes,0,no,unfurnished,Mumbai – Borivali,1,2,available,far from subway,1999,27
+6160000,5450,4,2,1,yes,no,yes,no,yes,0,yes,semi-furnished,Kolkata – Garia,1,1,not available,near subway,2004,22
+6125000,6420,3,1,3,yes,no,yes,no,no,0,yes,unfurnished,Delhi – Vasant Kunj,1,2,not available,near subway,2009,17
+6107500,3240,4,1,3,yes,no,no,no,no,1,no,semi-furnished,Delhi – Dwarka,2,1,available,far from subway,2005,21
+6090000,6615,4,2,2,yes,yes,no,yes,no,1,no,semi-furnished,Surat – Vesu,1,1,not available,near subway,1992,34
+6090000,6600,3,1,1,yes,yes,yes,no,no,2,yes,semi-furnished,Greater Noida – Alpha 1,2,1,not available,near subway,2003,23
+6090000,8372,3,1,3,yes,no,no,no,yes,2,no,unfurnished,Surat – Pal,2,1,available,far from subway,2003,23
+6083000,4300,6,2,2,yes,no,no,no,no,0,no,furnished,Ahmedabad – Bopal,2,1,not available,far from subway,2010,16
+6083000,9620,3,1,1,yes,no,yes,no,no,2,yes,furnished,Ahmedabad – Gota,1,1,not available,near subway,2002,24
+6020000,6800,2,1,1,yes,yes,yes,no,no,2,no,furnished,Lucknow – Indira Nagar,1,1,not available,near subway,2010,16
+6020000,8000,3,1,1,yes,yes,yes,no,yes,2,yes,semi-furnished,Ahmedabad – Maninagar,1,1,not available,near subway,2005,21
+6020000,6900,3,2,1,yes,yes,yes,no,no,0,yes,unfurnished,Surat – Katargam,2,1,not available,near subway,2010,16
+5950000,3700,4,1,2,yes,yes,no,no,yes,0,no,furnished,Ahmedabad – Maninagar,1,1,not available,far from subway,2000,26
+5950000,6420,3,1,1,yes,no,yes,no,yes,0,yes,furnished,Anand – Lambhvel,2,1,available,near subway,2001,25
+5950000,7020,3,1,1,yes,no,yes,no,yes,2,yes,semi-furnished,Hyderabad – Kondapur,1,1,not available,near subway,1998,28
+5950000,6540,3,1,1,yes,yes,yes,no,no,2,yes,furnished,Hyderabad – Gachibowli,1,1,not available,near subway,2001,25
+5950000,7231,3,1,2,yes,yes,yes,no,yes,0,yes,semi-furnished,Noida – Sector 62,2,1,not available,near subway,1995,31
+5950000,6254,4,2,1,yes,no,yes,no,no,1,yes,semi-furnished,Udaipur – Fatehpura,2,1,not available,near subway,1990,36
+5950000,7320,4,2,2,yes,no,no,no,no,0,no,furnished,Kota – Vigyan Nagar,2,1,not available,far from subway,2001,25
+5950000,6525,3,2,4,yes,no,no,no,no,1,no,furnished,Anand – Ganesh Chokdi,2,1,not available,far from subway,2005,21
+5943000,15600,3,1,1,yes,no,no,no,yes,2,no,semi-furnished,Surat – Pal,2,1,not available,far from subway,1997,29
+5880000,7160,3,1,1,yes,no,yes,no,no,2,yes,unfurnished,Jodhpur – Sardarpura,2,1,not available,near subway,2007,19
+5880000,6500,3,2,3,yes,no,no,no,yes,0,no,unfurnished,Udaipur – Hiran Magri,1,1,not available,far from subway,1996,30
+5873000,5500,3,1,3,yes,yes,no,no,yes,1,no,furnished,Lucknow – Indira Nagar,1,1,not available,far from subway,2010,16
+5873000,11460,3,1,3,yes,no,no,no,no,2,yes,semi-furnished,Greater Noida – Alpha 1,1,2,available,near subway,2001,25
+5866000,4800,3,1,1,yes,yes,yes,no,no,0,no,unfurnished,Hyderabad – Miyapur,1,1,not available,far from subway,2001,25
+5810000,5828,4,1,4,yes,yes,no,no,no,0,no,semi-furnished,Delhi – Janakpuri,1,2,available,far from subway,2001,25
+5810000,5200,3,1,3,yes,no,no,no,yes,0,no,semi-furnished,Chandigarh – Panchkula,2,2,available,near subway,2007,19
+5810000,4800,3,1,3,yes,no,no,no,yes,0,no,unfurnished,Kolkata – Behala,1,2,available,far from subway,1997,29
+5803000,7000,3,1,1,yes,no,yes,no,no,2,yes,semi-furnished,Surat – Katargam,1,1,not available,near subway,2002,24
+5775000,6000,3,2,4,yes,no,no,no,yes,0,no,unfurnished,Kota – Vigyan Nagar,1,2,available,far from subway,1998,28
+5740000,5400,4,2,2,yes,no,no,no,yes,2,no,unfurnished,Surat – Katargam,2,1,available,far from subway,1995,31
+5740000,4640,4,1,2,yes,no,no,no,no,1,no,semi-furnished,Indore – Vijay Nagar,2,2,not available,far from subway,2002,24
+5740000,5000,3,1,3,yes,no,no,no,yes,0,no,semi-furnished,Indore – Scheme 140,2,1,available,near subway,2011,15
+5740000,6360,3,1,1,yes,yes,yes,no,yes,2,yes,furnished,Noida – Sector 137,2,1,not available,near subway,2002,24
+5740000,5800,3,2,4,yes,no,no,no,yes,0,no,unfurnished,Kolkata – Ballygunge,2,2,available,far from subway,1998,28
+5652500,6660,4,2,2,yes,yes,yes,no,no,1,yes,semi-furnished,Udaipur – Hiran Magri,1,1,not available,near subway,2006,20
+5600000,10500,4,2,2,yes,no,no,no,no,1,no,semi-furnished,Kolkata – New Town,1,2,not available,far from subway,2005,21
+5600000,4800,5,2,3,no,no,yes,yes,no,0,no,unfurnished,Udaipur – Fatehpura,2,1,available,far from subway,1996,30
+5600000,4700,4,1,2,yes,yes,yes,no,yes,1,no,furnished,Kolkata – Howrah,1,1,not available,near subway,1990,36
+5600000,5000,3,1,4,yes,no,no,no,no,0,no,furnished,Kolkata – Howrah,1,2,available,near subway,2006,20
+5600000,10500,2,1,1,yes,no,no,no,no,1,no,semi-furnished,Noida – Sector 75,1,1,not available,far from subway,1990,36
+5600000,5500,3,2,2,yes,no,no,no,no,1,no,semi-furnished,Indore – Palasia,1,1,not available,far from subway,2007,19
+5600000,6360,3,1,3,yes,no,no,no,no,0,yes,semi-furnished,Surat – Adajan,2,1,available,near subway,2000,26
+5600000,6600,4,2,1,yes,no,yes,no,no,0,yes,semi-furnished,Mumbai – Thane,2,1,not available,near subway,2005,21
+5600000,5136,3,1,2,yes,yes,yes,no,yes,0,yes,unfurnished,Jaipur – Jagatpura,1,1,available,near subway,1991,35
+5565000,4400,4,1,2,yes,no,no,no,yes,2,yes,semi-furnished,Bangalore – Whitefield,1,1,not available,near subway,1991,35
+5565000,5400,5,1,2,yes,yes,yes,no,yes,0,yes,furnished,Indore – Bengali Square,1,1,available,near subway,2004,22
+5530000,3300,3,3,2,yes,no,yes,no,no,0,no,semi-furnished,Pune – Pimpri,1,1,not available,far from subway,1999,27
+5530000,3650,3,2,2,yes,no,no,no,no,2,no,semi-furnished,Hyderabad – Kukatpally,1,1,available,near subway,1997,29
+5530000,6100,3,2,1,yes,no,yes,no,no,2,yes,furnished,Bangalore – Yelahanka,2,1,not available,near subway,2003,23
+5523000,6900,3,1,1,yes,yes,yes,no,no,0,yes,semi-furnished,Bangalore – Yelahanka,2,1,not available,near subway,2014,12
+5495000,2817,4,2,2,no,yes,yes,no,no,1,no,furnished,Delhi – Lajpat Nagar,2,1,not available,far from subway,2007,19
+5495000,7980,3,1,1,yes,no,no,no,no,2,no,semi-furnished,Chennai – Velachery,1,1,not available,far from subway,2005,21
+5460000,3150,3,2,1,yes,yes,yes,no,yes,0,no,furnished,Bhopal – Kolar Road,1,1,not available,far from subway,2007,19
+5460000,6210,4,1,4,yes,yes,no,no,yes,0,no,furnished,Jaipur – Jagatpura,1,1,available,far from subway,2010,16
+5460000,6100,3,1,3,yes,yes,no,no,yes,0,yes,semi-furnished,Lucknow – Gomti Nagar,1,1,available,near subway,1998,28
+5460000,6600,4,2,2,yes,yes,yes,no,no,0,yes,semi-furnished,Bangalore – HSR Layout,2,1,not available,near subway,1990,36
+5425000,6825,3,1,1,yes,yes,yes,no,yes,0,yes,semi-furnished,Surat – Pal,1,1,not available,near subway,1998,28
+5390000,6710,3,2,2,yes,yes,yes,no,no,1,yes,furnished,Vadodara – Alkapuri,2,1,not available,near subway,2007,19
+5383000,6450,3,2,1,yes,yes,yes,yes,no,0,no,unfurnished,Delhi – Lajpat Nagar,1,1,not available,far from subway,1990,36
+5320000,7800,3,1,1,yes,no,yes,no,yes,2,yes,unfurnished,Surat – Udhna,2,1,not available,near subway,1994,32
+5285000,4600,2,2,1,yes,no,no,no,yes,2,no,semi-furnished,Hyderabad – Miyapur,1,1,not available,far from subway,1995,31
+5250000,4260,4,1,2,yes,no,yes,no,yes,0,no,furnished,Bangalore – Whitefield,1,1,available,far from subway,2010,16
+5250000,6540,4,2,2,no,no,no,no,yes,0,no,semi-furnished,Chennai – Adyar,2,1,not available,far from subway,2003,23
+5250000,5500,3,2,1,yes,no,yes,no,no,0,no,semi-furnished,Indore – Palasia,1,1,not available,far from subway,2002,24
+5250000,10269,3,1,1,yes,no,no,no,no,1,yes,semi-furnished,Mumbai – Powai,2,1,not available,near subway,2002,24
+5250000,8400,3,1,2,yes,yes,yes,no,yes,2,yes,unfurnished,Hyderabad – Gachibowli,1,1,available,near subway,1995,31
+5250000,5300,4,2,1,yes,no,no,no,yes,0,yes,unfurnished,Bangalore – Electronic City,1,1,not available,near subway,1996,30
+5250000,3800,3,1,2,yes,yes,yes,no,no,1,yes,unfurnished,Anand – Lambhvel,1,1,not available,near subway,1990,36
+5250000,9800,4,2,2,yes,yes,no,no,no,2,no,semi-furnished,Gandhinagar – Infocity,2,1,not available,far from subway,1990,36
+5250000,8520,3,1,1,yes,no,no,no,yes,2,no,furnished,Indore – Bengali Square,2,1,not available,far from subway,2003,23
+5243000,6050,3,1,1,yes,no,yes,no,no,0,yes,semi-furnished,Anand – Vallabh Vidyanagar,1,1,not available,near subway,2000,26
+5229000,7085,3,1,1,yes,yes,yes,no,no,2,yes,semi-furnished,Pune – Wakad,1,1,not available,near subway,2005,21
+5215000,3180,3,2,2,yes,no,no,no,no,2,no,semi-furnished,Greater Noida – Pari Chowk,1,1,not available,far from subway,2007,19
+5215000,4500,4,2,1,no,no,yes,no,yes,2,no,semi-furnished,Pune – Hadapsar,2,1,not available,far from subway,2007,19
+5215000,7200,3,1,2,yes,yes,yes,no,no,1,yes,furnished,Bhopal – Kolar Road,2,1,available,near subway,1997,29
+5145000,3410,3,1,2,no,no,no,no,yes,0,no,semi-furnished,Bangalore – Hebbal,1,1,not available,far from subway,1997,29
+5145000,7980,3,1,1,yes,no,no,no,no,1,yes,semi-furnished,Mumbai – Bandra,2,1,not available,near subway,2001,25
+5110000,3000,3,2,2,yes,yes,yes,no,no,0,no,furnished,Pune – Baner,1,1,not available,far from subway,2015,11
+5110000,3000,3,1,2,yes,no,yes,no,no,0,no,unfurnished,Udaipur – Fatehpura,2,1,not available,far from subway,2003,23
+5110000,11410,2,1,2,yes,no,no,no,no,0,yes,furnished,Udaipur – Fatehpura,2,1,not available,near subway,2008,18
+5110000,6100,3,1,1,yes,no,yes,no,yes,0,yes,semi-furnished,Kolkata – Ballygunge,1,1,not available,near subway,1996,30
+5075000,5720,2,1,2,yes,no,no,no,yes,0,yes,unfurnished,Bangalore – Whitefield,1,1,not available,near subway,1990,36
+5040000,3540,2,1,1,no,yes,yes,no,no,0,no,semi-furnished,Udaipur – Fatehpura,2,1,not available,far from subway,2002,24
+5040000,7600,4,1,2,yes,no,no,no,yes,2,no,furnished,Jaipur – Jagatpura,2,1,available,far from subway,1996,30
+5040000,10700,3,1,2,yes,yes,yes,no,no,0,no,semi-furnished,Indore – Bengali Square,2,2,not available,far from subway,1997,29
+5040000,6600,3,1,1,yes,yes,yes,no,no,0,yes,furnished,Vadodara – Gotri,1,1,not available,near subway,2001,25
+5033000,4800,2,1,1,yes,yes,yes,no,no,0,no,semi-furnished,Ahmedabad – Maninagar,2,1,not available,far from subway,2007,19
+5005000,8150,3,2,1,yes,yes,yes,no,no,0,no,semi-furnished,Mumbai – Borivali,1,1,not available,far from subway,1996,30
+4970000,4410,4,3,2,yes,no,yes,no,no,2,no,semi-furnished,Udaipur – Hiran Magri,1,1,not available,far from subway,1990,36
+4970000,7686,3,1,1,yes,yes,yes,yes,no,0,no,semi-furnished,Bangalore – Hebbal,2,1,not available,far from subway,2001,25
+4956000,2800,3,2,2,no,no,yes,no,yes,1,no,semi-furnished,Jaipur – Vaishali Nagar,1,1,not available,far from subway,1994,32
+4935000,5948,3,1,2,yes,no,no,no,yes,0,no,semi-furnished,Udaipur – Hiran Magri,1,1,available,far from subway,1998,28
+4907000,4200,3,1,2,yes,no,no,no,no,1,no,furnished,Udaipur – Hiran Magri,1,1,available,far from subway,2001,25
+4900000,4520,3,1,2,yes,no,yes,no,yes,0,no,semi-furnished,Greater Noida – Alpha 1,1,1,not available,far from subway,1997,29
+4900000,4095,3,1,2,no,yes,yes,no,yes,0,no,semi-furnished,Chennai – Anna Nagar,2,2,not available,far from subway,2002,24
+4900000,4120,2,1,1,yes,no,yes,no,no,1,no,semi-furnished,Delhi – Rohini,1,1,not available,far from subway,1990,36
+4900000,5400,4,1,2,yes,no,no,no,no,0,no,semi-furnished,Mumbai – Navi Mumbai,2,1,not available,near subway,1995,31
+4900000,4770,3,1,1,yes,yes,yes,no,no,0,no,semi-furnished,Gandhinagar – Sector 1,1,1,not available,far from subway,2002,24
+4900000,6300,3,1,1,yes,no,no,no,yes,2,no,semi-furnished,Udaipur – Bhuwana,1,1,not available,far from subway,1995,31
+4900000,5800,2,1,1,yes,yes,yes,no,yes,0,no,semi-furnished,Kolkata – Behala,1,1,not available,far from subway,1990,36
+4900000,3000,3,1,2,yes,no,yes,no,yes,0,no,semi-furnished,Hyderabad – Kondapur,1,1,not available,far from subway,2001,25
+4900000,2970,3,1,3,yes,no,no,no,no,0,no,semi-furnished,Bhopal – Arera Colony,1,2,not available,far from subway,2004,22
+4900000,6720,3,1,1,yes,no,no,no,no,0,no,unfurnished,Jaipur – Malviya Nagar,1,1,not available,far from subway,1994,32
+4900000,4646,3,1,2,yes,yes,yes,no,no,2,no,semi-furnished,Delhi – Dwarka,2,1,not available,far from subway,1990,36
+4900000,12900,3,1,1,yes,no,no,no,no,2,no,furnished,Delhi – Janakpuri,1,1,not available,far from subway,2005,21
+4893000,3420,4,2,2,yes,no,yes,no,yes,2,no,semi-furnished,Chennai – Adyar,1,1,not available,far from subway,1990,36
+4893000,4995,4,2,1,yes,no,yes,no,no,0,no,semi-furnished,Gandhinagar – Infocity,1,1,not available,far from subway,2000,26
+4865000,4350,2,1,1,yes,no,yes,no,no,0,no,unfurnished,Mumbai – Powai,1,1,not available,far from subway,1990,36
+4830000,4160,3,1,3,yes,no,no,no,no,0,no,unfurnished,Surat – Udhna,2,2,not available,far from subway,1990,36
+4830000,6040,3,1,1,yes,no,no,no,no,2,yes,semi-furnished,Ahmedabad – Maninagar,2,1,not available,near subway,1995,31
+4830000,6862,3,1,2,yes,no,no,no,yes,2,yes,furnished,Indore – Rau,2,1,available,near subway,2000,26
+4830000,4815,2,1,1,yes,no,no,no,yes,0,yes,semi-furnished,Jodhpur – Ratanada,1,1,not available,near subway,1994,32
+4795000,7000,3,1,2,yes,no,yes,no,no,0,no,unfurnished,Lucknow – Gomti Nagar,1,1,not available,far from subway,1997,29
+4795000,8100,4,1,4,yes,no,yes,no,yes,2,no,semi-furnished,Udaipur – Hiran Magri,2,1,available,far from subway,1995,31
+4767000,3420,4,2,2,yes,no,no,no,no,0,no,semi-furnished,Bangalore – Hebbal,1,1,available,far from subway,2003,23
+4760000,9166,2,1,1,yes,no,yes,no,yes,2,no,semi-furnished,Chennai – OMR,1,1,not available,near subway,1999,27
+4760000,6321,3,1,2,yes,no,yes,no,yes,1,no,furnished,Chandigarh – Sector 22,1,1,not available,far from subway,1998,28
+4760000,10240,2,1,1,yes,no,no,no,yes,2,yes,unfurnished,Jodhpur – Pal Road,2,1,not available,near subway,1990,36
+4753000,6440,2,1,1,yes,no,no,no,yes,3,no,semi-furnished,Mumbai – Andheri,1,1,not available,far from subway,1990,36
+4690000,5170,3,1,4,yes,no,no,no,yes,0,no,semi-furnished,Hyderabad – Miyapur,2,2,available,far from subway,1999,27
+4690000,6000,2,1,1,yes,no,yes,no,yes,1,no,furnished,Ahmedabad – Satellite,2,1,not available,near subway,1999,27
+4690000,3630,3,1,2,yes,no,no,no,no,2,no,semi-furnished,Indore – Palasia,1,1,not available,near subway,1990,36
+4690000,9667,4,2,2,yes,yes,yes,no,no,1,no,semi-furnished,Bhopal – Kolar Road,2,1,available,far from subway,1995,31
+4690000,5400,2,1,2,yes,no,no,no,no,0,yes,semi-furnished,Gandhinagar – Infocity,1,1,not available,near subway,1993,33
+4690000,4320,3,1,1,yes,no,no,no,no,0,yes,semi-furnished,Jaipur – Mansarovar,1,1,not available,near subway,2006,20
+4655000,3745,3,1,2,yes,no,yes,no,no,0,no,furnished,Gandhinagar – Sector 7,1,1,not available,far from subway,1992,34
+4620000,4160,3,1,1,yes,yes,yes,no,yes,0,no,unfurnished,Delhi – Dwarka,2,1,not available,far from subway,1990,36
+4620000,3880,3,2,2,yes,no,yes,no,no,2,no,semi-furnished,Pune – Kothrud,1,1,not available,far from subway,2003,23
+4620000,5680,3,1,2,yes,yes,no,no,yes,1,no,semi-furnished,Bhopal – MP Nagar,1,1,available,far from subway,2005,21
+4620000,2870,2,1,2,yes,yes,yes,no,no,0,yes,semi-furnished,Anand – Lambhvel,1,1,not available,near subway,1993,33
+4620000,5010,3,1,2,yes,no,yes,no,no,0,no,semi-furnished,Pune – Hinjewadi,1,2,not available,far from subway,1994,32
+4613000,4510,4,2,2,yes,no,yes,no,no,0,no,semi-furnished,Jaipur – Malviya Nagar,1,1,not available,far from subway,2001,25
+4585000,4000,3,1,2,yes,no,no,no,no,1,no,furnished,Delhi – Vasant Kunj,1,1,not available,far from subway,1990,36
+4585000,3840,3,1,2,yes,no,no,no,no,1,yes,semi-furnished,Vadodara – Alkapuri,1,1,not available,far from subway,1990,36
+4550000,3760,3,1,1,yes,no,no,no,no,2,no,semi-furnished,Surat – Pal,1,1,not available,far from subway,1996,30
+4550000,3640,3,1,2,yes,no,no,no,yes,0,no,furnished,Delhi – Rohini,1,1,available,near subway,2009,17
+4550000,2550,3,1,2,yes,no,yes,no,no,0,no,furnished,Surat – City Light,1,1,not available,near subway,1998,28
+4550000,5320,3,1,2,yes,yes,yes,no,no,0,yes,semi-furnished,Delhi – Janakpuri,2,1,not available,near subway,1998,28
+4550000,5360,3,1,2,yes,no,no,no,no,2,yes,unfurnished,Chandigarh – Zirakpur,1,1,available,near subway,2000,26
+4550000,3520,3,1,1,yes,no,no,no,no,0,yes,semi-furnished,Bangalore – Electronic City,1,1,not available,near subway,2008,18
+4550000,8400,4,1,4,yes,no,no,no,no,3,no,unfurnished,Chandigarh – Panchkula,2,2,available,far from subway,1991,35
+4543000,4100,2,2,1,yes,yes,yes,no,no,0,no,semi-furnished,Delhi – Lajpat Nagar,2,1,available,far from subway,1997,29
+4543000,4990,4,2,2,yes,yes,yes,no,no,0,yes,furnished,Lucknow – Gomti Nagar,1,1,not available,far from subway,2010,16
+4515000,3510,3,1,3,yes,no,no,no,no,0,no,semi-furnished,Ahmedabad – Chandkheda,1,1,not available,far from subway,1990,36
+4515000,3450,3,1,2,yes,no,yes,no,no,1,no,semi-furnished,Delhi – Saket,1,1,not available,far from subway,2003,23
+4515000,9860,3,1,1,yes,no,no,no,no,0,no,semi-furnished,Chandigarh – Zirakpur,2,1,not available,far from subway,1992,34
+4515000,3520,2,1,2,yes,no,no,no,no,0,yes,furnished,Gandhinagar – Raysan,1,1,not available,near subway,2001,25
+4480000,4510,4,1,2,yes,no,no,no,yes,2,no,semi-furnished,Lucknow – Indira Nagar,1,1,not available,far from subway,1996,30
+4480000,5885,2,1,1,yes,no,no,no,yes,1,no,unfurnished,Surat – Katargam,1,1,available,near subway,1990,36
+4480000,4000,3,1,2,yes,no,no,no,no,2,no,furnished,Mumbai – Bandra,1,1,not available,far from subway,1995,31
+4480000,8250,3,1,1,yes,no,no,no,no,0,no,furnished,Ahmedabad – Gota,1,1,not available,far from subway,2002,24
+4480000,4040,3,1,2,yes,no,no,no,no,1,no,semi-furnished,Surat – Udhna,1,1,available,far from subway,2002,24
+4473000,6360,2,1,1,yes,no,yes,no,yes,1,no,furnished,Chandigarh – Sector 17,1,1,not available,far from subway,2000,26
+4473000,3162,3,1,2,yes,no,no,no,yes,1,no,furnished,Kolkata – New Town,1,1,not available,far from subway,2001,25
+4473000,3510,3,1,2,yes,no,no,no,no,0,no,semi-furnished,Mumbai – Borivali,1,1,not available,far from subway,2000,26
+4445000,3750,2,1,1,yes,yes,yes,no,no,0,no,semi-furnished,Chandigarh – Zirakpur,1,1,not available,far from subway,1992,34
+4410000,3968,3,1,2,no,no,no,no,no,0,no,semi-furnished,Anand – Vallabh Vidyanagar,1,1,not available,far from subway,2001,25
+4410000,4900,2,1,2,yes,no,yes,no,no,0,no,semi-furnished,Bangalore – HSR Layout,1,1,available,far from subway,2001,25
+4403000,2880,3,1,2,yes,no,no,no,no,0,yes,semi-furnished,Kota – Vigyan Nagar,1,1,not available,near subway,2011,15
+4403000,4880,3,1,1,yes,no,no,no,no,2,yes,unfurnished,Noida – Sector 75,1,1,not available,near subway,1992,34
+4403000,4920,3,1,2,yes,no,no,no,no,1,no,semi-furnished,Chennai – OMR,1,1,not available,far from subway,1995,31
+4382000,4950,4,1,2,yes,no,no,no,yes,0,no,semi-furnished,Jaipur – Tonk Road,1,1,not available,far from subway,2001,25
+4375000,3900,3,1,2,yes,no,no,no,no,0,no,unfurnished,Mumbai – Navi Mumbai,1,1,not available,far from subway,1998,28
+4340000,4500,3,2,3,yes,no,no,yes,no,1,no,furnished,Delhi – Dwarka,1,1,not available,far from subway,1998,28
+4340000,1905,5,1,2,no,no,yes,no,no,0,no,semi-furnished,Ahmedabad – Maninagar,1,1,available,far from subway,1995,31
+4340000,4075,3,1,1,yes,yes,yes,no,no,2,no,semi-furnished,Greater Noida – Alpha 1,1,1,not available,far from subway,2000,26
+4340000,3500,4,1,2,yes,no,no,no,no,2,no,furnished,Delhi – Rohini,2,1,not available,far from subway,1996,30
+4340000,6450,4,1,2,yes,no,no,no,no,0,no,semi-furnished,Delhi – Janakpuri,2,1,not available,far from subway,1995,31
+4319000,4032,2,1,1,yes,no,yes,no,no,0,no,furnished,Pune – Hadapsar,1,1,not available,far from subway,2001,25
+4305000,4400,2,1,1,yes,no,no,no,no,1,no,semi-furnished,Surat – Katargam,1,1,not available,far from subway,2002,24
+4305000,10360,2,1,1,yes,no,no,no,no,1,yes,semi-furnished,Ahmedabad – Chandkheda,1,1,not available,near subway,1994,32
+4277000,3400,3,1,2,yes,no,yes,no,no,2,yes,semi-furnished,Bangalore – Yelahanka,2,1,available,far from subway,1990,36
+4270000,6360,2,1,1,yes,no,no,no,no,0,no,furnished,Indore – Rau,1,1,not available,near subway,1990,36
+4270000,6360,2,1,2,yes,no,no,no,no,0,no,unfurnished,Jaipur – Jagatpura,1,1,not available,far from subway,1990,36
+4270000,4500,2,1,1,yes,no,no,no,yes,2,no,furnished,Ahmedabad – Chandkheda,1,1,not available,far from subway,1993,33
+4270000,2175,3,1,2,no,yes,yes,no,yes,0,no,unfurnished,Chandigarh – Sector 17,1,1,not available,far from subway,1992,34
+4270000,4360,4,1,2,yes,no,no,no,no,0,no,furnished,Hyderabad – Hitech City,1,1,not available,far from subway,1994,32
+4270000,7770,2,1,1,yes,no,no,no,no,1,no,furnished,Hyderabad – Kondapur,1,1,not available,far from subway,1997,29
+4235000,6650,3,1,2,yes,yes,no,no,no,0,no,semi-furnished,Hyderabad – Miyapur,1,1,not available,far from subway,1993,33
+4235000,2787,3,1,1,yes,no,yes,no,no,0,yes,furnished,Udaipur – Bhuwana,1,1,not available,near subway,1998,28
+4200000,5500,3,1,2,yes,no,no,no,yes,0,no,unfurnished,Anand – Vallabh Vidyanagar,1,1,not available,far from subway,2000,26
+4200000,5040,3,1,2,yes,no,yes,no,yes,0,no,unfurnished,Pune – Baner,1,1,not available,near subway,1997,29
+4200000,5850,2,1,1,yes,yes,yes,no,no,2,no,semi-furnished,Anand – Lambhvel,1,1,not available,far from subway,1997,29
+4200000,2610,4,3,2,no,no,no,no,no,0,no,semi-furnished,Delhi – Saket,1,1,available,far from subway,1994,32
+4200000,2953,3,1,2,yes,no,yes,no,yes,0,no,unfurnished,Ahmedabad – Bopal,1,1,not available,far from subway,1991,35
+4200000,2747,4,2,2,no,no,no,no,no,0,no,semi-furnished,Gandhinagar – Sector 21,2,1,not available,far from subway,1998,28
+4200000,4410,2,1,1,no,no,no,no,no,1,no,unfurnished,Delhi – Dwarka,1,1,not available,far from subway,1996,30
+4200000,4000,4,2,2,no,no,no,no,no,0,no,semi-furnished,Surat – Adajan,1,1,not available,far from subway,1992,34
+4200000,2325,3,1,2,no,no,no,no,no,0,no,semi-furnished,Hyderabad – Kondapur,1,2,not available,far from subway,1997,29
+4200000,4600,3,2,2,yes,no,no,no,yes,1,no,semi-furnished,Mumbai – Bandra,1,1,available,far from subway,1990,36
+4200000,3640,3,2,2,yes,no,yes,no,no,0,no,unfurnished,Bangalore – Hebbal,1,1,not available,far from subway,1994,32
+4200000,5800,3,1,1,yes,no,no,yes,no,2,no,semi-furnished,Mumbai – Borivali,1,1,not available,near subway,2001,25
+4200000,7000,3,1,1,yes,no,no,no,no,3,no,furnished,Surat – City Light,1,1,not available,far from subway,1999,27
+4200000,4079,3,1,3,yes,no,no,no,no,0,no,semi-furnished,Lucknow – Indira Nagar,2,1,not available,near subway,2006,20
+4200000,3520,3,1,2,yes,no,no,no,no,0,yes,semi-furnished,Ahmedabad – Maninagar,1,2,available,near subway,1992,34
+4200000,2145,3,1,3,yes,no,no,no,no,1,yes,unfurnished,Bangalore – HSR Layout,1,1,not available,near subway,1994,32
+4200000,4500,3,1,1,yes,no,yes,no,no,0,no,furnished,Indore – Scheme 140,1,1,not available,far from subway,2000,26
+4193000,8250,3,1,1,yes,no,yes,no,no,3,no,semi-furnished,Chennai – Anna Nagar,1,1,not available,far from subway,1996,30
+4193000,3450,3,1,2,yes,no,no,no,no,1,no,semi-furnished,Surat – Udhna,1,1,available,far from subway,1996,30
+4165000,4840,3,1,2,yes,no,no,no,no,1,no,semi-furnished,Chandigarh – Panchkula,1,1,not available,far from subway,1997,29
+4165000,4080,3,1,2,yes,no,no,no,no,2,no,semi-furnished,Noida – Sector 137,2,1,not available,far from subway,2001,25
+4165000,4046,3,1,2,yes,no,yes,no,no,1,no,semi-furnished,Chennai – Tambaram,1,1,not available,far from subway,2004,22
+4130000,4632,4,1,2,yes,no,no,no,yes,0,no,semi-furnished,Hyderabad – Hitech City,2,1,not available,far from subway,1996,30
+4130000,5985,3,1,1,yes,no,yes,no,no,0,no,semi-furnished,Mumbai – Powai,2,1,not available,far from subway,2001,25
+4123000,6060,2,1,1,yes,no,yes,no,no,1,no,semi-furnished,Pune – Pimpri,1,1,not available,far from subway,1993,33
+4098500,3600,3,1,1,yes,no,yes,no,yes,0,yes,furnished,Indore – Scheme 140,2,1,not available,near subway,2004,22
+4095000,3680,3,2,2,yes,no,no,no,no,0,no,semi-furnished,Anand – Karamsad,1,1,not available,far from subway,1992,34
+4095000,4040,2,1,2,yes,no,no,no,no,1,no,semi-furnished,Surat – Udhna,1,1,not available,near subway,2002,24
+4095000,5600,2,1,1,yes,no,no,no,yes,0,no,semi-furnished,Ahmedabad – Bopal,1,1,not available,far from subway,2008,18
+4060000,5900,4,2,2,no,no,yes,no,no,1,no,unfurnished,Surat – Pal,1,1,not available,far from subway,1992,34
+4060000,4992,3,2,2,yes,no,no,no,no,2,no,unfurnished,Delhi – Rohini,1,1,not available,far from subway,1990,36
+4060000,4340,3,1,1,yes,no,no,no,no,0,no,semi-furnished,Hyderabad – Kukatpally,2,1,not available,far from subway,1993,33
+4060000,3000,4,1,3,yes,no,yes,no,yes,2,no,semi-furnished,Delhi – Saket,1,1,available,far from subway,2003,23
+4060000,4320,3,1,2,yes,no,no,no,no,2,yes,furnished,Kolkata – Behala,1,1,not available,near subway,2003,23
+4025000,3630,3,2,2,yes,no,no,yes,no,2,no,semi-furnished,Chennai – OMR,1,1,available,far from subway,1998,28
+4025000,3460,3,2,1,yes,no,yes,no,yes,1,no,furnished,Hyderabad – Kukatpally,2,1,not available,far from subway,2005,21
+4025000,5400,3,1,1,yes,no,no,no,no,3,no,semi-furnished,Bhopal – Arera Colony,1,1,not available,far from subway,1999,27
+4007500,4500,3,1,2,no,no,yes,no,yes,0,no,semi-furnished,Bangalore – Electronic City,2,1,available,far from subway,2003,23
+4007500,3460,4,1,2,yes,no,no,no,yes,0,no,semi-furnished,Bangalore – Marathahalli,1,1,not available,far from subway,2001,25
+3990000,4100,4,1,1,no,no,yes,no,no,0,no,unfurnished,Chennai – Anna Nagar,1,1,available,far from subway,2001,25
+3990000,6480,3,1,2,no,no,no,no,yes,1,no,semi-furnished,Ahmedabad – Chandkheda,1,1,not available,far from subway,1998,28
+3990000,4500,3,2,2,no,no,yes,no,yes,0,no,semi-furnished,Chandigarh – Zirakpur,1,1,not available,far from subway,2001,25
+3990000,3960,3,1,2,yes,no,no,no,no,0,no,furnished,Kolkata – Salt Lake,1,1,not available,far from subway,1998,28
+3990000,4050,2,1,2,yes,yes,yes,no,no,0,yes,unfurnished,Chennai – Adyar,2,1,not available,near subway,1990,36
+3920000,7260,3,2,1,yes,yes,yes,no,no,3,no,furnished,Chennai – Porur,2,1,not available,far from subway,2008,18
+3920000,5500,4,1,2,yes,yes,yes,no,no,0,no,semi-furnished,Kolkata – Ballygunge,1,1,not available,far from subway,1997,29
+3920000,3000,3,1,2,yes,no,no,no,no,0,no,semi-furnished,Mumbai – Navi Mumbai,1,1,available,far from subway,2000,26
+3920000,3290,2,1,1,yes,no,no,yes,no,1,no,furnished,Surat – City Light,1,1,not available,far from subway,2000,26
+3920000,3816,2,1,1,yes,no,yes,no,yes,2,no,furnished,Indore – Palasia,1,1,not available,far from subway,1996,30
+3920000,8080,3,1,1,yes,no,no,no,yes,2,no,semi-furnished,Mumbai – Navi Mumbai,1,1,not available,far from subway,1996,30
+3920000,2145,4,2,1,yes,no,yes,no,no,0,yes,unfurnished,Chennai – Tambaram,1,1,not available,near subway,2000,26
+3885000,3780,2,1,2,yes,yes,yes,no,no,0,no,semi-furnished,Mumbai – Thane,1,1,not available,near subway,1999,27
+3885000,3180,4,2,2,yes,no,no,no,no,0,no,furnished,Kolkata – Ballygunge,1,1,not available,far from subway,1990,36
+3850000,5300,5,2,2,yes,no,no,no,no,0,no,semi-furnished,Udaipur – Bhuwana,1,1,not available,far from subway,1995,31
+3850000,3180,2,2,1,yes,no,yes,no,no,2,no,semi-furnished,Gandhinagar – Infocity,1,1,not available,far from subway,2005,21
+3850000,7152,3,1,2,yes,no,no,no,yes,0,no,furnished,Chandigarh – Sector 17,1,1,not available,far from subway,1998,28
+3850000,4080,2,1,1,yes,no,no,no,no,0,no,semi-furnished,Hyderabad – Hitech City,1,1,not available,near subway,1990,36
+3850000,3850,2,1,1,yes,no,no,no,no,0,no,semi-furnished,Anand – Lambhvel,2,1,not available,far from subway,2006,20
+3850000,2015,3,1,2,yes,no,yes,no,no,0,yes,semi-furnished,Hyderabad – Madhapur,1,1,not available,near subway,1999,27
+3850000,2176,2,1,2,yes,yes,no,no,no,0,yes,semi-furnished,Noida – Sector 137,1,1,not available,near subway,1996,30
+3836000,3350,3,1,2,yes,no,no,no,no,0,no,unfurnished,Chandigarh – Panchkula,1,1,not available,far from subway,1990,36
+3815000,3150,2,2,1,no,no,yes,no,no,0,no,semi-furnished,Noida – Sector 62,1,1,not available,far from subway,2001,25
+3780000,4820,3,1,2,yes,no,no,no,no,0,no,semi-furnished,Chennai – Velachery,2,1,available,far from subway,1993,33
+3780000,3420,2,1,2,yes,no,no,yes,no,1,no,semi-furnished,Indore – Vijay Nagar,1,1,not available,far from subway,2002,24
+3780000,3600,2,1,1,yes,no,no,no,no,0,no,semi-furnished,Bangalore – HSR Layout,1,1,not available,far from subway,1999,27
+3780000,5830,2,1,1,yes,no,no,no,no,2,no,unfurnished,Bangalore – Electronic City,1,1,not available,far from subway,1994,32
+3780000,2856,3,1,3,yes,no,no,no,no,0,yes,furnished,Kolkata – Salt Lake,1,1,available,near subway,2000,26
+3780000,8400,2,1,1,yes,no,no,no,no,1,no,furnished,Jodhpur – Sardarpura,2,1,not available,far from subway,1998,28
+3773000,8250,3,1,1,yes,no,no,no,no,2,no,furnished,Vadodara – Manjalpur,1,1,not available,far from subway,2005,21
+3773000,2520,5,2,1,no,no,yes,no,yes,1,no,furnished,Udaipur – Hiran Magri,1,1,available,far from subway,1995,31
+3773000,6930,4,1,2,no,no,no,no,no,1,no,furnished,Surat – City Light,1,1,available,far from subway,1991,35
+3745000,3480,2,1,1,yes,no,no,no,no,0,yes,semi-furnished,Vadodara – Manjalpur,1,1,not available,near subway,1999,27
+3710000,3600,3,1,1,yes,no,no,no,no,1,no,unfurnished,Ahmedabad – Gota,1,1,not available,far from subway,1995,31
+3710000,4040,2,1,1,yes,no,no,no,no,0,no,semi-furnished,Kolkata – Ballygunge,1,1,not available,far from subway,1998,28
+3710000,6020,3,1,1,yes,no,no,no,no,0,no,semi-furnished,Pune – Hinjewadi,1,1,not available,far from subway,1998,28
+3710000,4050,2,1,1,yes,no,no,no,no,0,no,furnished,Hyderabad – Kondapur,1,1,not available,far from subway,1997,29
+3710000,3584,2,1,1,yes,no,no,yes,no,0,no,semi-furnished,Hyderabad – Gachibowli,1,1,not available,far from subway,2000,26
+3703000,3120,3,1,2,no,no,yes,yes,no,0,no,semi-furnished,Noida – Sector 75,1,1,available,far from subway,1995,31
+3703000,5450,2,1,1,yes,no,no,no,no,0,no,furnished,Lucknow – Alambagh,2,1,not available,far from subway,1997,29
+3675000,3630,2,1,1,yes,no,yes,no,no,0,no,furnished,Chandigarh – Panchkula,1,1,not available,far from subway,1997,29
+3675000,3630,2,1,1,yes,no,no,no,yes,0,no,unfurnished,Jaipur – Mansarovar,1,1,not available,far from subway,2003,23
+3675000,5640,2,1,1,no,no,no,no,no,0,no,semi-furnished,Delhi – Rohini,1,1,not available,far from subway,1990,36
+3675000,3600,2,1,1,yes,no,no,no,no,0,no,furnished,Mumbai – Powai,1,1,not available,far from subway,2002,24
+3640000,4280,2,1,1,yes,no,no,no,yes,2,no,semi-furnished,Vadodara – Alkapuri,1,1,not available,far from subway,1990,36
+3640000,3570,3,1,2,yes,no,yes,no,no,0,no,semi-furnished,Jaipur – Vaishali Nagar,2,1,not available,far from subway,1995,31
+3640000,3180,3,1,2,no,no,yes,no,no,0,no,semi-furnished,Jaipur – Jagatpura,1,1,not available,far from subway,1993,33
+3640000,3000,2,1,2,yes,no,no,no,yes,0,no,furnished,Ahmedabad – Chandkheda,1,1,not available,near subway,1990,36
+3640000,3520,2,2,1,yes,no,yes,no,no,0,no,semi-furnished,Indore – Palasia,1,1,not available,far from subway,1998,28
+3640000,5960,3,1,2,yes,yes,yes,no,no,0,no,unfurnished,Vadodara – Alkapuri,2,1,not available,far from subway,1990,36
+3640000,4130,3,2,2,yes,no,no,no,no,2,no,semi-furnished,Kolkata – Behala,1,1,not available,near subway,1990,36
+3640000,2850,3,2,2,no,no,yes,no,no,0,yes,unfurnished,Bangalore – Marathahalli,1,1,not available,near subway,1996,30
+3640000,2275,3,1,3,yes,no,no,yes,yes,0,yes,semi-furnished,Hyderabad – Hitech City,2,1,not available,near subway,2003,23
+3633000,3520,3,1,1,yes,no,no,no,no,2,yes,unfurnished,Chennai – Anna Nagar,1,1,not available,near subway,2000,26
+3605000,4500,2,1,1,yes,no,no,no,no,0,no,semi-furnished,Jodhpur – Sardarpura,1,1,not available,far from subway,1997,29
+3605000,4000,2,1,1,yes,no,no,no,no,0,yes,semi-furnished,Bangalore – Whitefield,1,1,not available,near subway,1996,30
+3570000,3150,3,1,2,yes,no,yes,no,no,0,no,furnished,Chandigarh – Sector 22,1,1,not available,far from subway,2006,20
+3570000,4500,4,2,2,yes,no,yes,no,no,2,no,furnished,Anand – Vallabh Vidyanagar,1,1,not available,far from subway,2008,18
+3570000,4500,2,1,1,no,no,no,no,no,0,no,furnished,Surat – City Light,1,1,not available,far from subway,2005,21
+3570000,3640,2,1,1,yes,no,no,no,no,0,no,unfurnished,Surat – Vesu,1,1,not available,far from subway,1990,36
+3535000,3850,3,1,1,yes,no,no,no,no,2,no,unfurnished,Kolkata – New Town,1,1,not available,far from subway,1993,33
+3500000,4240,3,1,2,yes,no,no,no,yes,0,no,semi-furnished,Hyderabad – Kukatpally,1,1,not available,far from subway,1998,28
+3500000,3650,3,1,2,yes,no,no,no,no,0,no,unfurnished,Jaipur – Mansarovar,1,1,not available,far from subway,1990,36
+3500000,4600,4,1,2,yes,no,no,no,no,0,no,semi-furnished,Jaipur – Vaishali Nagar,1,1,available,far from subway,1998,28
+3500000,2135,3,2,2,no,no,no,no,no,0,no,unfurnished,Anand – Ganesh Chokdi,1,1,not available,far from subway,2004,22
+3500000,3036,3,1,2,yes,no,yes,no,no,0,no,semi-furnished,Pune – Pimpri,1,1,not available,far from subway,1999,27
+3500000,3990,3,1,2,yes,no,no,no,no,0,no,semi-furnished,Surat – Adajan,1,1,not available,far from subway,2003,23
+3500000,7424,3,1,1,no,no,no,no,no,0,no,unfurnished,Chennai – Tambaram,1,1,not available,far from subway,1993,33
+3500000,3480,3,1,1,no,no,no,no,yes,0,no,unfurnished,Gandhinagar – Infocity,1,1,not available,far from subway,1991,35
+3500000,3600,6,1,2,yes,no,no,no,no,1,no,unfurnished,Bhopal – MP Nagar,1,1,not available,near subway,1994,32
+3500000,3640,2,1,1,yes,no,no,no,no,1,no,semi-furnished,Noida – Sector 75,1,1,not available,far from subway,1991,35
+3500000,5900,2,1,1,yes,no,no,no,no,1,no,furnished,Jaipur – Mansarovar,1,1,not available,far from subway,1994,32
+3500000,3120,3,1,2,yes,no,no,no,no,1,no,unfurnished,Chandigarh – Panchkula,1,1,not available,far from subway,1998,28
+3500000,7350,2,1,1,yes,no,no,no,no,1,no,semi-furnished,Vadodara – Alkapuri,1,1,not available,far from subway,2002,24
+3500000,3512,2,1,1,yes,no,no,no,no,1,yes,unfurnished,Indore – Rau,1,1,not available,near subway,1990,36
+3500000,9500,3,1,2,yes,no,no,no,no,3,yes,unfurnished,Pune – Pimpri,1,1,not available,near subway,1997,29
+3500000,5880,2,1,1,yes,no,no,no,no,0,no,unfurnished,Bangalore – Electronic City,1,1,not available,far from subway,1991,35
+3500000,12944,3,1,1,yes,no,no,no,no,0,no,unfurnished,Udaipur – Hiran Magri,1,1,not available,far from subway,1993,33
+3493000,4900,3,1,2,no,no,no,no,no,0,no,unfurnished,Gandhinagar – Sector 7,1,1,not available,far from subway,1994,32
+3465000,3060,3,1,1,yes,no,no,no,no,0,no,unfurnished,Chennai – Porur,1,1,not available,far from subway,1997,29
+3465000,5320,2,1,1,yes,no,no,no,no,1,yes,unfurnished,Bangalore – Marathahalli,1,1,not available,near subway,1992,34
+3465000,2145,3,1,3,yes,no,no,no,no,0,yes,furnished,Hyderabad – Kondapur,1,1,not available,near subway,2006,20
+3430000,4000,2,1,1,yes,no,no,no,no,0,no,unfurnished,Bhopal – MP Nagar,1,1,not available,far from subway,1993,33
+3430000,3185,2,1,1,yes,no,no,no,no,2,no,unfurnished,Jaipur – Malviya Nagar,1,1,not available,far from subway,1995,31
+3430000,3850,3,1,1,yes,no,no,no,no,0,no,unfurnished,Kolkata – Behala,1,1,not available,far from subway,1990,36
+3430000,2145,3,1,3,yes,no,no,no,no,0,yes,furnished,Chandigarh – Zirakpur,1,1,not available,near subway,2010,16
+3430000,2610,3,1,2,yes,no,yes,no,no,0,yes,unfurnished,Mumbai – Powai,1,2,available,near subway,1994,32
+3430000,1950,3,2,2,yes,no,yes,no,no,0,yes,unfurnished,Vadodara – Gotri,1,1,not available,near subway,1995,31
+3423000,4040,2,1,1,yes,no,no,no,no,0,no,unfurnished,Kota – Vigyan Nagar,1,1,not available,far from subway,1990,36
+3395000,4785,3,1,2,yes,yes,yes,no,yes,1,no,furnished,Hyderabad – Kukatpally,1,1,not available,far from subway,1994,32
+3395000,3450,3,1,1,yes,no,yes,no,no,2,no,unfurnished,Delhi – Lajpat Nagar,1,1,not available,far from subway,1998,28
+3395000,3640,2,1,1,yes,no,no,no,no,0,no,furnished,Kolkata – New Town,1,1,not available,far from subway,2000,26
+3360000,3500,4,1,2,yes,no,no,no,yes,2,no,unfurnished,Bangalore – HSR Layout,1,1,available,near subway,1990,36
+3360000,4960,4,1,3,no,no,no,no,no,0,no,semi-furnished,Mumbai – Powai,2,1,available,far from subway,2000,26
+3360000,4120,2,1,2,yes,no,no,no,no,0,no,unfurnished,Kolkata – Howrah,1,1,not available,far from subway,1990,36
+3360000,4750,2,1,1,yes,no,no,no,no,0,no,unfurnished,Greater Noida – Alpha 1,1,1,not available,far from subway,1999,27
+3360000,3720,2,1,1,no,no,no,no,yes,0,no,unfurnished,Indore – Palasia,1,1,not available,far from subway,1991,35
+3360000,3750,3,1,1,yes,no,no,no,no,0,no,unfurnished,Mumbai – Andheri,1,1,not available,far from subway,1992,34
+3360000,3100,3,1,2,no,no,yes,no,no,0,no,semi-furnished,Ahmedabad – Chandkheda,1,1,not available,far from subway,2001,25
+3360000,3185,2,1,1,yes,no,yes,no,no,2,no,furnished,Indore – Palasia,1,1,not available,far from subway,1994,32
+3353000,2700,3,1,1,no,no,no,no,no,0,no,furnished,Kolkata – Ballygunge,1,1,not available,far from subway,1993,33
+3332000,2145,3,1,2,yes,no,yes,no,no,0,yes,furnished,Jaipur – Jagatpura,2,1,available,near subway,1997,29
+3325000,4040,2,1,1,yes,no,no,no,no,1,no,unfurnished,Ahmedabad – Chandkheda,1,1,not available,far from subway,1996,30
+3325000,4775,4,1,2,yes,no,no,no,no,0,no,unfurnished,Chennai – Tambaram,1,1,not available,far from subway,1990,36
+3290000,2500,2,1,1,no,no,no,no,yes,0,no,unfurnished,Kolkata – Ballygunge,1,1,not available,far from subway,1990,36
+3290000,3180,4,1,2,yes,no,yes,no,yes,0,no,unfurnished,Pune – Pimpri,1,1,not available,far from subway,1996,30
+3290000,6060,3,1,1,yes,yes,yes,no,no,0,no,furnished,Bangalore – HSR Layout,1,1,not available,far from subway,1995,31
+3290000,3480,4,1,2,no,no,no,no,no,1,no,semi-furnished,Jaipur – Jagatpura,1,1,not available,far from subway,1993,33
+3290000,3792,4,1,2,yes,no,no,no,no,0,no,semi-furnished,Pune – Hadapsar,1,1,not available,far from subway,1990,36
+3290000,4040,2,1,1,yes,no,no,no,no,0,no,unfurnished,Jaipur – Jagatpura,1,1,not available,far from subway,1990,36
+3290000,2145,3,1,2,yes,no,yes,no,no,0,yes,furnished,Pune – Kothrud,1,1,available,near subway,1998,28
+3290000,5880,3,1,1,yes,no,no,no,no,1,no,unfurnished,Udaipur – Hiran Magri,1,1,not available,far from subway,1996,30
+3255000,4500,2,1,1,no,no,no,no,no,0,no,semi-furnished,Pune – Wakad,1,1,not available,far from subway,1991,35
+3255000,3930,2,1,1,no,no,no,no,no,0,no,unfurnished,Bhopal – Kolar Road,1,1,not available,far from subway,2000,26
+3234000,3640,4,1,2,yes,no,yes,no,no,0,no,unfurnished,Delhi – Saket,1,1,not available,far from subway,1990,36
+3220000,4370,3,1,2,yes,no,no,no,no,0,no,unfurnished,Chandigarh – Zirakpur,1,1,not available,far from subway,1990,36
+3220000,2684,2,1,1,yes,no,no,no,yes,1,no,unfurnished,Bangalore – HSR Layout,1,1,not available,far from subway,1999,27
+3220000,4320,3,1,1,no,no,no,no,no,1,no,unfurnished,Jaipur – Tonk Road,2,1,not available,far from subway,1992,34
+3220000,3120,3,1,2,no,no,no,no,no,0,no,furnished,Kolkata – New Town,1,1,available,far from subway,1995,31
+3150000,3450,1,1,1,yes,no,no,no,no,0,no,furnished,Chandigarh – Sector 17,1,1,not available,far from subway,1997,29
+3150000,3986,2,2,1,no,yes,yes,no,no,1,no,unfurnished,Hyderabad – Kondapur,1,1,not available,far from subway,1998,28
+3150000,3500,2,1,1,no,no,yes,no,no,0,no,semi-furnished,Chennai – Porur,1,1,not available,far from subway,2002,24
+3150000,4095,2,1,1,yes,no,no,no,no,2,no,semi-furnished,Chennai – Velachery,1,1,not available,far from subway,1990,36
+3150000,1650,3,1,2,no,no,yes,no,no,0,no,unfurnished,Ahmedabad – Gota,1,1,available,far from subway,1991,35
+3150000,3450,3,1,2,yes,no,yes,no,no,0,no,semi-furnished,Surat – Vesu,1,1,not available,far from subway,1995,31
+3150000,6750,2,1,1,yes,no,no,no,no,0,no,semi-furnished,Kolkata – Behala,1,1,not available,far from subway,1990,36
+3150000,9000,3,1,2,yes,no,no,no,no,2,no,semi-furnished,Jodhpur – Ratanada,2,1,not available,far from subway,1994,32
+3150000,3069,2,1,1,yes,no,no,no,no,1,no,unfurnished,Surat – City Light,2,1,not available,far from subway,1991,35
+3143000,4500,3,1,2,yes,no,no,no,yes,0,no,unfurnished,Mumbai – Navi Mumbai,1,1,available,far from subway,1997,29
+3129000,5495,3,1,1,yes,no,yes,no,no,0,no,unfurnished,Kota – Vigyan Nagar,1,1,not available,far from subway,1997,29
+3118850,2398,3,1,1,yes,no,no,no,no,0,yes,semi-furnished,Jodhpur – Ratanada,1,1,not available,near subway,1993,33
+3115000,3000,3,1,1,no,no,no,no,yes,0,no,unfurnished,Indore – Bengali Square,1,1,not available,far from subway,1990,36
+3115000,3850,3,1,2,yes,no,no,no,no,0,no,unfurnished,Udaipur – Hiran Magri,1,1,not available,far from subway,1994,32
+3115000,3500,2,1,1,yes,no,no,no,no,0,no,unfurnished,Jaipur – Tonk Road,1,1,not available,far from subway,1990,36
+3087000,8100,2,1,1,yes,no,no,no,no,1,no,unfurnished,Delhi – Lajpat Nagar,1,1,not available,far from subway,1994,32
+3080000,4960,2,1,1,yes,no,yes,no,yes,0,no,unfurnished,Gandhinagar – Sector 21,1,1,not available,far from subway,1990,36
+3080000,2160,3,1,2,no,no,yes,no,no,0,no,semi-furnished,Surat – Adajan,1,1,not available,far from subway,1990,36
+3080000,3090,2,1,1,yes,yes,yes,no,no,0,no,unfurnished,Udaipur – Fatehpura,1,1,not available,far from subway,1990,36
+3080000,4500,2,1,2,yes,no,no,yes,no,1,no,semi-furnished,Pune – Baner,1,1,not available,near subway,2002,24
+3045000,3800,2,1,1,yes,no,no,no,no,0,no,unfurnished,Bangalore – Hebbal,1,1,not available,far from subway,1990,36
+3010000,3090,3,1,2,no,no,no,no,no,0,no,semi-furnished,Ahmedabad – Maninagar,1,1,not available,far from subway,2003,23
+3010000,3240,3,1,2,yes,no,no,no,no,2,no,semi-furnished,Lucknow – Alambagh,2,1,not available,far from subway,1992,34
+3010000,2835,2,1,1,yes,no,no,no,no,0,no,semi-furnished,Ahmedabad – Bopal,1,1,not available,far from subway,1996,30
+3010000,4600,2,1,1,yes,no,no,no,no,0,no,furnished,Greater Noida – Alpha 1,1,1,not available,far from subway,2010,16
+3010000,5076,3,1,1,no,no,no,no,no,0,no,unfurnished,Jaipur – Mansarovar,1,1,not available,far from subway,1990,36
+3010000,3750,3,1,2,yes,no,no,no,no,0,no,unfurnished,Anand – Ganesh Chokdi,1,1,not available,near subway,1990,36
+3010000,3630,4,1,2,yes,no,no,no,no,3,no,semi-furnished,Chandigarh – Panchkula,1,1,not available,far from subway,2001,25
+3003000,8050,2,1,1,yes,no,no,no,no,0,no,unfurnished,Pune – Hadapsar,1,1,not available,far from subway,1990,36
+2975000,4352,4,1,2,no,no,no,no,no,1,no,unfurnished,Chennai – Adyar,1,1,not available,far from subway,1991,35
+2961000,3000,2,1,2,yes,no,no,no,no,0,no,semi-furnished,Noida – Sector 62,1,1,not available,far from subway,1991,35
+2940000,5850,3,1,2,yes,no,yes,no,no,1,no,unfurnished,Noida – Sector 137,1,1,not available,far from subway,1992,34
+2940000,4960,2,1,1,yes,no,no,no,no,0,no,unfurnished,Bhopal – Kolar Road,1,1,not available,far from subway,1990,36
+2940000,3600,3,1,2,no,no,no,no,no,1,no,unfurnished,Hyderabad – Madhapur,1,1,not available,far from subway,1990,36
+2940000,3660,4,1,2,no,no,no,no,no,0,no,unfurnished,Pune – Pimpri,2,1,not available,far from subway,1993,33
+2940000,3480,3,1,2,no,no,no,no,no,1,no,semi-furnished,Pune – Kothrud,1,1,not available,far from subway,1990,36
+2940000,2700,2,1,1,no,no,no,no,no,0,no,furnished,Hyderabad – Madhapur,1,1,not available,far from subway,1994,32
+2940000,3150,3,1,2,no,no,no,no,no,0,no,unfurnished,Chennai – Porur,1,1,not available,far from subway,1990,36
+2940000,6615,3,1,2,yes,no,no,no,no,0,no,semi-furnished,Greater Noida – Pari Chowk,1,1,not available,far from subway,1990,36
+2870000,3040,2,1,1,no,no,no,no,no,0,no,unfurnished,Jodhpur – Pal Road,1,1,not available,far from subway,1990,36
+2870000,3630,2,1,1,yes,no,no,no,no,0,no,unfurnished,Surat – Vesu,1,1,not available,far from subway,1991,35
+2870000,6000,2,1,1,yes,no,no,no,no,0,no,semi-furnished,Hyderabad – Madhapur,1,1,not available,far from subway,1992,34
+2870000,5400,4,1,2,yes,no,no,no,no,0,no,unfurnished,Indore – Scheme 140,1,1,not available,far from subway,1990,36
+2852500,5200,4,1,3,yes,no,no,no,no,0,no,unfurnished,Surat – Udhna,1,1,not available,far from subway,1990,36
+2835000,3300,3,1,2,no,no,no,no,no,1,no,semi-furnished,Chennai – Adyar,1,1,not available,far from subway,1990,36
+2835000,4350,3,1,2,no,no,no,yes,no,1,no,unfurnished,Ahmedabad – Satellite,1,1,not available,far from subway,1994,32
+2835000,2640,2,1,1,no,no,no,no,no,1,no,furnished,Chennai – Velachery,1,1,not available,far from subway,2005,21
+2800000,2650,3,1,2,yes,no,yes,no,no,1,no,unfurnished,Pune – Kothrud,1,1,not available,far from subway,1990,36
+2800000,3960,3,1,1,yes,no,no,no,no,0,no,furnished,Chennai – OMR,1,1,not available,far from subway,2000,26
+2730000,6800,2,1,1,yes,no,no,no,no,0,no,unfurnished,Gandhinagar – Sector 1,1,1,not available,far from subway,1990,36
+2730000,4000,3,1,2,yes,no,no,no,no,1,no,unfurnished,Surat – Vesu,1,1,not available,far from subway,1992,34
+2695000,4000,2,1,1,yes,no,no,no,no,0,no,unfurnished,Bangalore – Marathahalli,1,1,not available,near subway,1998,28
+2660000,3934,2,1,1,yes,no,no,no,no,0,no,unfurnished,Ahmedabad – Chandkheda,1,1,not available,far from subway,1993,33
+2660000,2000,2,1,2,yes,no,no,no,no,0,no,semi-furnished,Mumbai – Navi Mumbai,1,1,not available,far from subway,1990,36
+2660000,3630,3,3,2,no,yes,no,no,no,0,no,unfurnished,Bangalore – Yelahanka,1,1,not available,far from subway,1992,34
+2660000,2800,3,1,1,yes,no,no,no,no,0,no,unfurnished,Pune – Baner,1,1,not available,far from subway,1997,29
+2660000,2430,3,1,1,no,no,no,no,no,0,no,unfurnished,Hyderabad – Kukatpally,1,1,not available,far from subway,1990,36
+2660000,3480,2,1,1,yes,no,no,no,no,1,no,semi-furnished,Ahmedabad – Bopal,1,1,not available,far from subway,1999,27
+2660000,4000,3,1,1,yes,no,no,no,no,0,no,semi-furnished,Jaipur – Vaishali Nagar,1,1,not available,far from subway,1990,36
+2653000,3185,2,1,1,yes,no,no,no,yes,0,no,unfurnished,Bangalore – Hebbal,1,1,not available,far from subway,1990,36
+2653000,4000,3,1,2,yes,no,no,no,yes,0,no,unfurnished,Jodhpur – Sardarpura,1,1,not available,far from subway,1991,35
+2604000,2910,2,1,1,no,no,no,no,no,0,no,unfurnished,Udaipur – Bhuwana,2,1,not available,far from subway,1990,36
+2590000,3600,2,1,1,yes,no,no,no,no,0,no,unfurnished,Hyderabad – Hitech City,1,1,not available,near subway,1990,36
+2590000,4400,2,1,1,yes,no,no,no,no,0,no,unfurnished,Ahmedabad – Prahlad Nagar,1,1,not available,far from subway,1997,29
+2590000,3600,2,2,2,yes,no,yes,no,no,1,no,furnished,Udaipur – Hiran Magri,1,1,not available,far from subway,1990,36
+2520000,2880,3,1,1,no,no,no,no,no,0,no,unfurnished,Gandhinagar – Sector 1,1,1,not available,far from subway,1990,36
+2520000,3180,3,1,1,no,no,no,no,no,0,no,unfurnished,Chandigarh – Sector 22,1,1,not available,far from subway,1990,36
+2520000,3000,2,1,2,yes,no,no,no,no,0,no,furnished,Mumbai – Andheri,1,1,not available,far from subway,1996,30
+2485000,4400,3,1,2,yes,no,no,no,no,0,no,unfurnished,Surat – Udhna,1,1,not available,far from subway,1990,36
+2485000,3000,3,1,2,no,no,no,no,no,0,no,semi-furnished,Jodhpur – Sardarpura,1,1,not available,far from subway,2001,25
+2450000,3210,3,1,2,yes,no,yes,no,no,0,no,unfurnished,Vadodara – Alkapuri,1,1,not available,far from subway,1995,31
+2450000,3240,2,1,1,no,yes,no,no,no,1,no,unfurnished,Kolkata – New Town,1,1,not available,far from subway,1992,34
+2450000,3000,2,1,1,yes,no,no,no,no,1,no,unfurnished,Chennai – Porur,1,1,not available,far from subway,1990,36
+2450000,3500,2,1,1,yes,yes,no,no,no,0,no,unfurnished,Surat – Pal,1,1,not available,far from subway,1992,34
+2450000,4840,2,1,2,yes,no,no,no,no,0,no,unfurnished,Surat – City Light,1,1,not available,far from subway,1990,36
+2450000,7700,2,1,1,yes,no,no,no,no,0,no,unfurnished,Kolkata – Howrah,1,1,not available,far from subway,1994,32
+2408000,3635,2,1,1,no,no,no,no,no,0,no,unfurnished,Chennai – OMR,1,1,not available,far from subway,1990,36
+2380000,2475,3,1,2,yes,no,no,no,no,0,no,furnished,Hyderabad – Miyapur,1,1,not available,far from subway,2001,25
+2380000,2787,4,2,2,yes,no,no,no,no,0,no,furnished,Jaipur – Tonk Road,1,1,not available,far from subway,2003,23
+2380000,3264,2,1,1,yes,no,no,no,no,0,no,unfurnished,Kolkata – Garia,1,1,not available,far from subway,1991,35
+2345000,3640,2,1,1,yes,no,no,no,no,0,no,unfurnished,Anand – Vallabh Vidyanagar,1,1,not available,far from subway,1990,36
+2310000,3180,2,1,1,yes,no,no,no,no,0,no,unfurnished,Noida – Sector 75,1,1,available,far from subway,1991,35
+2275000,1836,2,1,1,no,no,yes,no,no,0,no,semi-furnished,Jodhpur – Ratanada,1,1,not available,far from subway,1990,36
+2275000,3970,1,1,1,no,no,no,no,no,0,no,unfurnished,Chennai – Velachery,1,1,not available,far from subway,1991,35
+2275000,3970,3,1,2,yes,no,yes,no,no,0,no,unfurnished,Hyderabad – Miyapur,1,1,not available,far from subway,1990,36
+2240000,1950,3,1,1,no,no,no,yes,no,0,no,unfurnished,Surat – Pal,1,1,not available,far from subway,1990,36
+2233000,5300,3,1,1,no,no,no,no,yes,0,yes,unfurnished,Jaipur – Jagatpura,1,1,not available,near subway,1993,33
+2135000,3000,2,1,1,no,no,no,no,no,0,no,unfurnished,Chennai – Adyar,1,1,not available,far from subway,1990,36
+2100000,2400,3,1,2,yes,no,no,no,no,0,no,unfurnished,Hyderabad – Kondapur,1,1,not available,far from subway,1990,36
+2100000,3000,4,1,2,yes,no,no,no,no,0,no,unfurnished,Chennai – Porur,1,1,not available,far from subway,1990,36
+2100000,3360,2,1,1,yes,no,no,no,no,1,no,unfurnished,Mumbai – Bandra,1,1,not available,far from subway,1990,36
+1960000,3420,5,1,2,no,no,no,no,no,0,no,unfurnished,Hyderabad – Miyapur,1,1,not available,far from subway,1990,36
+1890000,1700,3,1,2,yes,no,no,no,no,0,no,unfurnished,Pune – Hinjewadi,1,1,available,far from subway,1990,36
+1890000,3649,2,1,1,yes,no,no,no,no,0,no,unfurnished,Udaipur – Fatehpura,1,1,not available,far from subway,1994,32
+1855000,2990,2,1,1,no,no,no,no,no,1,no,unfurnished,Delhi – Dwarka,1,1,not available,far from subway,1990,36
+1820000,3000,2,1,1,yes,no,yes,no,no,2,no,unfurnished,Bangalore – Yelahanka,1,1,not available,far from subway,1990,36
+1767150,2400,3,1,1,no,no,no,no,no,0,no,semi-furnished,Pune – Pimpri,1,1,not available,far from subway,1999,27
+1750000,3620,2,1,1,yes,no,no,no,no,0,no,unfurnished,Pune – Baner,1,1,not available,far from subway,1990,36
+1750000,2910,3,1,1,no,no,no,no,no,0,no,furnished,Hyderabad – Kukatpally,1,1,not available,far from subway,1996,30
+1750000,3850,3,1,2,yes,no,no,no,no,0,no,unfurnished,Chennai – Adyar,1,1,not available,far from subway,1990,36

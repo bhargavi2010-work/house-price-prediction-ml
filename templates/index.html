@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House Price Prediction</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="form-wrapper prediction-form-wrapper">
+    <div class="top-bar">
+        <h2>House Price Prediction</h2>
+        <div class="nav-actions">
+            <a href="/metrics">Model Metrics</a>
+            {% if current_user.is_authenticated %}
+                <a href="/history">My History</a>
+                {% if current_user.is_admin %}
+                    <a href="/admin/dashboard">Admin</a>
+                {% endif %}
+                <a href="/logout">Logout</a>
+            {% else %}
+                <a href="/login">Login</a>
+                <a href="/register">Register</a>
+            {% endif %}
+        </div>
+    </div>
+
+    {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+            {% for category, message in messages %}
+            <div class="flash {{ category }}">{{ message }}</div>
+            {% endfor %}
+        {% endif %}
+    {% endwith %}
+
+    {% if current_user.is_authenticated %}
+    <p class="helper-text">Welcome, {{ current_user.name }}. Your predictions will be saved in your history.</p>
+    {% else %}
+    <p class="helper-text">You can predict as a guest. Login only if you want to save your prediction history.</p>
+    {% endif %}
+
+    <form class="prediction-card" action="/predict" method="post">
+        <section class="form-section">
+            <h3>Location</h3>
+            <div class="form-grid one-column">
+                <label>
+                    Select Location
+                    <select name="location" id="location" required onchange="toggleCustomLocation()">
+                        <option value="">Select Location</option>
+                        {% for location in locations %}
+                        <option value="{{ location }}" {{ 'selected' if form_data and form_data.location == location }}>
+                            {{ location }}
+                        </option>
+                        {% endfor %}
+                        <option value="__custom__" {{ 'selected' if form_data and form_data.location == '__custom__' }}>
+                            Other / New Location
+                        </option>
+                    </select>
+                </label>
+            </div>
+
+            <div id="custom-location-box" class="custom-location-box form-grid two-column">
+                <label>
+                    Nearest Known City
+                    <select name="custom_city">
+                        <option value="">Select Nearest Known City</option>
+                        {% for city in cities %}
+                        <option value="{{ city }}" {{ 'selected' if form_data and form_data.custom_city == city }}>
+                            {{ city }}
+                        </option>
+                        {% endfor %}
+                    </select>
+                </label>
+
+                <label>
+                    New Locality
+                    <input type="text" name="custom_location" placeholder="Enter new locality"
+                           value="{{ form_data.custom_location if form_data else '' }}">
+                </label>
+            </div>
+        </section>
+
+        <section class="form-section">
+            <h3>House Details</h3>
+            <div class="form-grid three-column">
+                <label>
+                    Area (sq ft)
+                    <input type="number" name="area" value="{{ form_data.area if form_data else '' }}" required>
+                </label>
+
+                <label>
+                    Bedrooms
+                    <input type="number" name="bedrooms" value="{{ form_data.bedrooms if form_data else '' }}" required>
+                </label>
+
+                <label>
+                    Bathrooms
+                    <input type="number" name="bathrooms" value="{{ form_data.bathrooms if form_data else '' }}" required>
+                </label>
+
+                <label>
+                    Number of Floors
+                    <input type="number" name="stories" value="{{ form_data.stories if form_data else '' }}" required>
+                </label>
+
+                <label>
+                    Parking
+                    <input type="number" name="parking" value="{{ form_data.parking if form_data else '' }}" required>
+                </label>
+
+                <label>
+                    Drawing Room
+                    <input type="number" name="drawing_room" value="{{ form_data.drawing_room if form_data else '' }}">
+                </label>
+
+                <label>
+                    Kitchen Count
+                    <input type="number" name="kitchen_count" value="{{ form_data.kitchen_count if form_data else '' }}">
+                </label>
+            </div>
+        </section>
+
+        <section class="form-section">
+            <h3>Amenities</h3>
+            <div class="form-grid three-column">
+                <label>
+                    Main Road
+                    <select name="mainroad" required>
+                        <option value="">Main Road</option>
+                        <option value="yes" {{ 'selected' if form_data and form_data.mainroad == 'yes' }}>Yes</option>
+                        <option value="no" {{ 'selected' if form_data and form_data.mainroad == 'no' }}>No</option>
+                    </select>
+                </label>
+
+                <label>
+                    Guest Room
+                    <select name="guestroom" required>
+                        <option value="">Guest Room</option>
+                        <option value="yes" {{ 'selected' if form_data and form_data.guestroom == 'yes' }}>Yes</option>
+                        <option value="no" {{ 'selected' if form_data and form_data.guestroom == 'no' }}>No</option>
+                    </select>
+                </label>
+
+                <label>
+                    Basement
+                    <select name="basement" required>
+                        <option value="">Basement</option>
+                        <option value="yes" {{ 'selected' if form_data and form_data.basement == 'yes' }}>Yes</option>
+                        <option value="no" {{ 'selected' if form_data and form_data.basement == 'no' }}>No</option>
+                    </select>
+                </label>
+
+                <label>
+                    Hot Water Heating
+                    <select name="hotwaterheating" required>
+                        <option value="">Hot Water Heating</option>
+                        <option value="yes" {{ 'selected' if form_data and form_data.hotwaterheating == 'yes' }}>Yes</option>
+                        <option value="no" {{ 'selected' if form_data and form_data.hotwaterheating == 'no' }}>No</option>
+                    </select>
+                </label>
+
+                <label>
+                    Air Conditioning
+                    <select name="airconditioning" required>
+                        <option value="">Air Conditioning</option>
+                        <option value="yes" {{ 'selected' if form_data and form_data.airconditioning == 'yes' }}>Yes</option>
+                        <option value="no" {{ 'selected' if form_data and form_data.airconditioning == 'no' }}>No</option>
+                    </select>
+                </label>
+
+                <label>
+                    Preferred Area
+                    <select name="prefarea" required>
+                        <option value="">Preferred Area</option>
+                        <option value="yes" {{ 'selected' if form_data and form_data.prefarea == 'yes' }}>Yes</option>
+                        <option value="no" {{ 'selected' if form_data and form_data.prefarea == 'no' }}>No</option>
+                    </select>
+                </label>
+
+                <label>
+                    Furnishing Status
+                    <select name="furnishingstatus" required>
+                        <option value="furnished" {{ 'selected' if form_data and form_data.furnishingstatus == 'furnished' }}>Furnished</option>
+                        <option value="semi-furnished" {{ 'selected' if form_data and form_data.furnishingstatus == 'semi-furnished' }}>Semi-Furnished</option>
+                        <option value="unfurnished" {{ 'selected' if form_data and form_data.furnishingstatus == 'unfurnished' }}>Unfurnished</option>
+                    </select>
+                </label>
+
+                <label>
+                    Elevator
+                    <select name="elevator">
+                        <option value="">Elevator Availability</option>
+                        <option value="available" {{ 'selected' if form_data and form_data.elevator == 'available' }}>Available</option>
+                        <option value="not available" {{ 'selected' if form_data and form_data.elevator == 'not available' }}>Not Available</option>
+                    </select>
+                </label>
+
+                <label>
+                    Subway Access
+                    <select name="subway_access">
+                        <option value="">Subway Access</option>
+                        <option value="near subway" {{ 'selected' if form_data and form_data.subway_access == 'near subway' }}>Near Subway</option>
+                        <option value="far from subway" {{ 'selected' if form_data and form_data.subway_access == 'far from subway' }}>Far from Subway</option>
+                    </select>
+                </label>
+            </div>
+        </section>
+
+        <section class="form-section">
+            <h3>Additional Info</h3>
+            <div class="form-grid three-column">
+                <label>
+                    Construction Year
+                    <input type="number" name="construction_year" min="1900" max="2030"
+                           value="{{ form_data.construction_year if form_data else '' }}">
+                </label>
+
+                <label>
+                    Property Age
+                    <input type="number" name="property_age" min="0" max="150"
+                           value="{{ form_data.property_age if form_data else '' }}">
+                </label>
+            </div>
+        </section>
+
+        <div class="btn-group form-actions">
+            <button type="submit">Predict Price</button>
+            <button type="button" class="clear-btn" onclick="clearForm()">Clear All</button>
+        </div>
+
+        {% if prediction_text %}
+        <div class="price-box">
+            <h3>Predicted House Price</h3>
+            <p>{{ prediction_text }}</p>
+            {% if warning_text %}
+            <span>{{ warning_text }}</span>
+            {% endif %}
+        </div>
+        {% endif %}
+    </form>
+</div>
+
+<script>
+function clearForm() {
+    window.location.href = "/";
+}
+
+function toggleCustomLocation() {
+    const locationSelect = document.getElementById("location");
+    const customBox = document.getElementById("custom-location-box");
+    const customInputs = customBox.querySelectorAll("select, input");
+    const isCustom = locationSelect.value === "__custom__";
+
+    customBox.style.display = isCustom ? "grid" : "none";
+    customInputs.forEach((input) => {
+        input.required = isCustom;
+    });
+}
+
+toggleCustomLocation();
+</script>
+
+</body>
+</html>

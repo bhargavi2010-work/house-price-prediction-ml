@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction History</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="metrics-wrapper">
+    <div class="top-bar">
+        <h2>My Prediction History</h2>
+        <div class="nav-actions">
+            <a href="/">Prediction App</a>
+            <a href="/metrics">Metrics</a>
+            <a href="/logout">Logout</a>
+        </div>
+    </div>
+
+    <section class="metrics-panel">
+        <h3>Saved Predictions</h3>
+        {% if predictions %}
+        <table>
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Location</th>
+                    <th>Area</th>
+                    <th>Bedrooms</th>
+                    <th>Bathrooms</th>
+                    <th>Predicted Price</th>
+                    <th>Model</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for row in predictions %}
+                <tr>
+                    <td>{{ row.timestamp }}</td>
+                    <td>{{ row.location }}</td>
+                    <td>{{ row.area }}</td>
+                    <td>{{ row.bedrooms }}</td>
+                    <td>{{ row.bathrooms }}</td>
+                    <td>Rs. {{ "{:,.2f}".format(row.predicted_price) }}</td>
+                    <td>{{ row.model_name }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        {% else %}
+        <p class="helper-text">No saved predictions yet. Go to the prediction page and submit your first one.</p>
+        {% endif %}
+    </section>
+</div>
+
+</body>
+</html>

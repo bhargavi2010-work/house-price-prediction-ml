@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Model Metrics</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="metrics-wrapper">
+    <div class="top-bar">
+        <h2>Model Performance</h2>
+        <a href="/">Prediction App</a>
+    </div>
+
+    <section class="metrics-panel">
+        <h3>Best Model: {{ metrics.best_model }}</h3>
+        <div class="metric-grid">
+            <div>
+                <strong>R2 Score</strong>
+                <span>{{ metrics.best_model_metrics.r2_score }}</span>
+            </div>
+            <div>
+                <strong>MAE</strong>
+                <span>Rs. {{ "{:,.2f}".format(metrics.best_model_metrics.mae) }}</span>
+            </div>
+            <div>
+                <strong>RMSE</strong>
+                <span>Rs. {{ "{:,.2f}".format(metrics.best_model_metrics.rmse) }}</span>
+            </div>
+            <div>
+                <strong>MAPE</strong>
+                <span>{{ metrics.best_model_metrics.mape_percent }}%</span>
+            </div>
+            <div>
+                <strong>Within 10%</strong>
+                <span>{{ metrics.best_model_metrics.accuracy_within_10_percent }}%</span>
+            </div>
+            <div>
+                <strong>CV R2 Mean</strong>
+                <span>{{ metrics.best_model_metrics.cross_validation_r2_mean }}</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="metrics-panel">
+        <h3>Model Comparison</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Model</th>
+                    <th>R2</th>
+                    <th>MAE</th>
+                    <th>RMSE</th>
+                    <th>MAPE</th>
+                    <th>Within 10%</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for row in metrics.model_comparison %}
+                <tr>
+                    <td>{{ row.model }}</td>
+                    <td>{{ row.r2_score }}</td>
+                    <td>Rs. {{ "{:,.2f}".format(row.mae) }}</td>
+                    <td>Rs. {{ "{:,.2f}".format(row.rmse) }}</td>
+                    <td>{{ row.mape_percent }}%</td>
+                    <td>{{ row.accuracy_within_10_percent }}%</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </section>
+
+    <section class="chart-grid">
+        <div class="chart-panel">
+            <img src="/static/charts/actual_vs_predicted.svg" alt="Actual vs Predicted Price Chart">
+        </div>
+        <div class="chart-panel">
+            <img src="/static/charts/feature_importance.svg" alt="Feature Importance Chart">
+        </div>
+    </section>
+
+    <section class="metrics-panel">
+        <h3>Dataset Summary</h3>
+        <p>Rows used: {{ metrics.dataset_rows }} | Train rows: {{ metrics.train_rows }} | Test rows: {{ metrics.test_rows }}</p>
+        <p>Generated at: {{ metrics.generated_at }}</p>
+    </section>
+</div>
+
+</body>
+</html>

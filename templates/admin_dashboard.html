@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body class="admin-page">
+
+<nav class="admin-navbar">
+    <a class="admin-brand" href="/admin/dashboard">House Price Prediction</a> 
+    <div class="admin-nav-links">
+        <a class="active" href="/admin/dashboard">Admin Dashboard</a>
+        <a href="/admin/predictions">Prediction Reports</a>
+        <a href="/admin/users">Users</a>
+        <a href="/">Prediction App</a>
+        <a href="/logout">Logout</a>
+    </div>
+    <span class="admin-user">Hi, {{ current_user.name }}</span>
+</nav>
+
+<main class="admin-shell">
+    {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+            {% for category, message in messages %}
+            <div class="flash {{ category }}">{{ message }}</div>
+            {% endfor %}
+        {% endif %}
+    {% endwith %}
+
+    <h1>Admin Dashboard</h1>
+
+    <section class="admin-card-grid">
+        <div><strong>Total Predictions</strong><span>{{ cards.total_predictions }}</span></div>
+        <div><strong>Today</strong><span>{{ cards.predictions_today }}</span></div>
+        <div><strong>This Month</strong><span>{{ cards.predictions_month }}</span></div>
+        <div><strong>Registered Users</strong><span>{{ cards.registered_users }}</span></div>
+        <div><strong>Registered Today</strong><span>{{ cards.registered_today }}</span></div>
+        <div><strong>Login Users Today</strong><span>{{ cards.login_users_today }}</span></div>
+        <div><strong>Guest Predictions</strong><span>{{ cards.guest_predictions }}</span></div>
+        <div><strong>Custom Locations</strong><span>{{ cards.custom_locations }}</span></div>
+        <div><strong>Average Price</strong><span>Rs. {{ "{:,.0f}".format(cards.avg_price) }}</span></div>
+        <div><strong>Top City</strong><span>{{ cards.most_city }}</span></div>
+        <div><strong>Top Location</strong><span>{{ cards.most_location }}</span></div>
+    </section>
+
+    <section class="dashboard-grid">
+        <div class="chart-panel">
+            <h3>Daily Predictions</h3>
+            <canvas id="dailyChart"></canvas>
+        </div>
+        <div class="chart-panel">
+            <h3>Top Locations</h3>
+            <canvas id="locationChart"></canvas>
+        </div>
+        <div class="chart-panel">
+            <h3>Known vs Custom Locations</h3>
+            <canvas id="customChart"></canvas>
+        </div>
+        <div class="chart-panel">
+            <h3>Average Price by City</h3>
+            <canvas id="cityPriceChart"></canvas>
+        </div>
+    </section>
+
+    <section class="admin-panel">
+        <div class="panel-heading">
+            <h2>Recent Predictions</h2>
+            <a class="table-action dark" href="/admin/predictions">View All</a>
+        </div>
+        <div class="table-scroll">
+            <table class="admin-table">
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>User</th>
+                        <th>City</th>
+                        <th>Location</th>
+                        <th>Price</th>
+                        <th>Custom</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for row in recent_predictions %}
+                    <tr>
+                        <td>{{ row.timestamp }}</td>
+                        <td>{{ row.user_email or "guest" }}</td>
+                        <td>{{ row.city }}</td>
+                        <td>{{ row.location }}</td>
+                        <td>Rs. {{ "{:,.0f}".format(row.predicted_price) }}</td>
+                        <td>{{ "Yes" if row.is_custom_location else "No" }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </section>
+</main>
+
+<script>
+const chartData = {{ charts | tojson }};
+
+function makeChart(id, type, labels, values, label, colors) {
+    new Chart(document.getElementById(id), {
+        type: type,
+        data: {
+            labels: labels,
+            datasets: [{
+                label: label,
+                data: values,
+                backgroundColor: colors || "#2563eb",
+                borderColor: "#0f172a",
+                borderWidth: 2,
+                tension: 0.35
+            }]
+        },
+        options: {
+            responsive: true,
+            plugins: {
+                legend: { display: type === "doughnut" }
+            },
+            scales: type === "doughnut" ? {} : {
+                y: { beginAtZero: true }
+            }
+        }
+    });
+}
+
+makeChart("dailyChart", "line", chartData.daily_labels, chartData.daily_values, "Predictions", "#06b6d4");
+makeChart("locationChart", "bar", chartData.top_location_labels, chartData.top_location_values, "Search Count", "#2563eb");
+makeChart("customChart", "doughnut", chartData.known_custom_labels, chartData.known_custom_values, "Locations", ["#16a34a", "#f43f5e"]);
+makeChart("cityPriceChart", "bar", chartData.city_price_labels, chartData.city_price_values, "Average Price", "#7c3aed");
+</script>
+
+</body>
+</html>

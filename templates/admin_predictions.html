@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Logs</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body class="admin-page">
+
+<nav class="admin-navbar">
+    <a class="admin-brand" href="/admin/dashboard">House Price Prediction</a>
+    <div class="admin-nav-links">
+        <a href="/admin/dashboard">Admin Dashboard</a>
+        <a class="active" href="/admin/predictions">Prediction Reports</a>
+        <a href="/admin/users">Users</a>
+        <a href="/">Prediction App</a>
+        <a href="/logout">Logout</a>
+    </div>
+    <span class="admin-user">Hi, {{ current_user.name }}</span>
+</nav>
+
+<main class="admin-shell">
+    {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+            {% for category, message in messages %}
+            <div class="flash {{ category }}">{{ message }}</div>
+            {% endfor %}
+        {% endif %}
+    {% endwith %}
+
+    <h1>Prediction Logs</h1>
+
+    <section class="admin-panel filter-panel">
+        <form class="filter-form" method="get">
+            <input type="text" name="search" placeholder="Search location"
+                   value="{{ filters.get('search', '') }}">
+            <select name="city">
+                <option value="">All Cities</option>
+                {% for city in cities %}
+                <option value="{{ city }}" {{ 'selected' if filters.get('city') == city }}>{{ city }}</option>
+                {% endfor %}
+            </select>
+            <select name="user_type">
+                <option value="">All Users</option>
+                <option value="guest" {{ 'selected' if filters.get('user_type') == 'guest' }}>Guest</option>
+                <option value="registered" {{ 'selected' if filters.get('user_type') == 'registered' }}>Registered</option>
+            </select>
+            <input type="date" name="date_from" value="{{ filters.get('date_from', '') }}">
+            <input type="date" name="date_to" value="{{ filters.get('date_to', '') }}">
+            <button type="submit">Apply Filters</button>
+            <a class="button-link" href="/admin/predictions">Reset</a>
+            <a class="button-link accent" href="/admin/export.csv?{{ request.query_string.decode() }}">Download CSV</a>
+        </form>
+    </section>
+
+    <section class="admin-panel">
+        <div class="panel-heading">
+            <h2>Latest {{ predictions|length }} Records</h2>
+        </div>
+        <div class="table-scroll">
+            <table class="admin-table">
+                <thead>
+                    <tr>
+                        <th>S.No</th>
+                        <th>ID</th>
+                        <th>Date</th>
+                        <th>User</th>
+                        <th>City</th>
+                        <th>Location</th>
+                        <th>Area</th>
+                        <th>Bedrooms</th>
+                        <th>Price</th>
+                        <th>Custom</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for row in predictions %}
+                    <tr>
+                        <td>{{ loop.index }}</td>
+                        <td>{{ row.id }}</td>
+                        <td>{{ row.timestamp }}</td>
+                        <td>{{ row.user_email or "guest" }}</td>
+                        <td>{{ row.city }}</td>
+                        <td>{{ row.location }}</td>
+                        <td>{{ row.area }}</td>
+                        <td>{{ row.bedrooms }}</td>
+                        <td>Rs. {{ "{:,.0f}".format(row.predicted_price) }}</td>
+                        <td>{{ "Yes" if row.is_custom_location else "No" }}</td>
+                        <td>
+                            <div class="action-group">
+                                <a class="table-action dark" href="/admin/predictions?search={{ row.location | urlencode }}">Similar</a>
+                                <form method="post" action="/admin/predictions/{{ row.id }}/delete"
+                                      onsubmit="return confirm('Delete this prediction record?');">
+                                    <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+                                    <button class="table-action danger" type="submit">Delete</button>
+                                </form>
+                            </div>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </section>
+</main>
+
+</body>
+</html>

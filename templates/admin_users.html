@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Users</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body class="admin-page">
+
+<nav class="admin-navbar">
+    <a class="admin-brand" href="/admin/dashboard">House Price Prediction</a>
+    <div class="admin-nav-links">
+        <a href="/admin/dashboard">Admin Dashboard</a>
+        <a href="/admin/predictions">Prediction Reports</a>
+        <a class="active" href="/admin/users">Users</a>
+        <a href="/">Prediction App</a>
+        <a href="/logout">Logout</a>
+    </div>
+    <span class="admin-user">Hi, {{ current_user.name }}</span>
+</nav>
+
+<main class="admin-shell">
+    {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+            {% for category, message in messages %}
+            <div class="flash {{ category }}">{{ message }}</div>
+            {% endfor %}
+        {% endif %}
+    {% endwith %}
+
+    <h1>All Users</h1>
+
+    <section class="admin-panel">
+        <div class="table-scroll">
+            <table class="admin-table">
+                <thead>
+                    <tr>
+                        <th>S.No</th>
+                        <th>ID</th>
+                        <th>Username</th>
+                        <th>Email</th>
+                        <th>Role</th>
+                        <th>Date Joined</th>
+                        <th>Predictions</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for user in users %}
+                    <tr>
+                        <td>{{ loop.index }}</td>
+                        <td>{{ user.id }}</td>
+                        <td>{{ user.name }}</td>
+                        <td>{{ user.email }}</td>
+                        <td>{{ user.role }}</td>
+                        <td>{{ user.created_at }}</td>
+                        <td>{{ user.prediction_count }}</td>
+                        <td>
+                            <div class="action-group">
+                                <a class="table-action info" href="/admin/predictions?user_id={{ user.id }}">Predictions</a>
+                            </div>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </section>
+</main>
+
+</body>
+</html>
